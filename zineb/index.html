@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js"></script>
+    <script src="js2.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <main class="main-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <img src="" alt="center"/>
+                    <h1 class="display-4"></h1>
+                    <select id="styleChoice" class="form-control">
+                        <option value="Classy">Classy</option>
+                        <option value="streetwear">Street Wear</option>
+                        <option value="classe">Sporty</option>
+                        <option value="Casual">Casual</option>
+                        <!-- Ajoutez d'autres choix selon vos besoins -->
+                    </select>
+                    <button onclick="afficherArticles()" class="btn btn-primary mt-3">Submit</button>
+                    <div id="ttspecial" class="ttspecial my-40 bottom-to-top hb-animate-element">
+                        <div class="container">
+                            <div class="row">
+                                <div id="articlesContainer" class="ttspecial-content products grid owl-carousel">
+                                <!-- Les articles seront affichés ici -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="suggestionTenue" class="text-center"></div>
+    </main>
+</body>
+</html>

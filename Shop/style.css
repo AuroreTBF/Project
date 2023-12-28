@@ -1,0 +1,119 @@
+body, html {
+    height: 100%;
+  }
+  .bg-img{
+    /* The image used */
+    background-image: url("carcommunity.jpg");
+    height: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+.nav1{
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-link-color);
+  --bs-nav-link-hover-color: var(--bs-link-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-secondary-color);
+flex-wrap: wrap;
+padding-left: 0;
+margin-bottom: 0;
+list-style: none;
+font-weight: bold;
+border-right: 0.1rem solid grey;
+}
+.car{
+    font-size: 60px;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.join{
+        font-size: 30px;
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+.items{
+    border-top: 0.1rem solid grey;
+}
+.image{
+    max-height: 180px;
+    max-width: 115px;
+    margin-left: 90px;
+    padding-top: 20px;
+}
+.card-text{
+    font-weight: bold;
+}
+.card-body .bx{
+    color: orange;
+}
+.button-hover {
+    border: 2px solid #767676;
+    background: transparent;
+    color: #767676;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 0.07rem;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+.button-hover span {
+    transition: all 0.2s ease-in-out;
+  }
+  
+.button-hover .fa{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 50%;
+    -webkit-transform: translateY(-45%);
+    -ms-transform: translateY(-45%);
+    transform: translateY(-40%);
+    color: #e46013;
+    right: -30px;
+    transition: 0.4s right cubic-bezier(0.38, 0.6, 0.48, 1);
+  }
+  
+.button-hover:hover {
+    border-color: #e46013;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  
+.button-hover:hover span {
+    margin-right: 20px;
+    color: #e46013;
+  }
+.button-hover:hover .fa {
+    right: 12px;
+  }
+
+.button-hover .bx{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 50%;
+    -webkit-transform: translateY(-45%);
+    -ms-transform: translateY(-45%);
+    transform: translateY(-40%);
+    color: #dc3545;
+    right: -30px;
+    transition: 0.4s right cubic-bezier(0.38, 0.6, 0.48, 1);
+}
+.button-hover:hover .bx{
+    right: 12px;
+}
+.details:hover {
+    border-color: #dc3545;
+}
+.details:hover span{
+    border-color: #dc3545;
+}
+.card-footer{
+    display: none;
+}
+.card:hover .card-footer{
+    display: block;
+}
