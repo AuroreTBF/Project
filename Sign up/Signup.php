@@ -11,6 +11,34 @@
 <body>
 <script src="../js/bootstrap.bundle.js"></script>
 <!--Header -->
+<?php
+include 'cnx.php';
+$con = cnx_pdo();
+
+if($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['firstname']) && !empty($_POST['lastname']) && !empty($_POST['email'])
+&& !empty($_POST['address']) && !empty($_POST['password']) && !empty($_POST['confirmpassword'])){
+
+//-------------------Prepare statement---------//
+$name = $_POST['firstname'];
+$lastname = $_POST['lastname'] ;
+$email = $_POST['email'] ;
+$password = $_POST['password'];
+$address = $_POST['address'];
+$confirmpassword = $_POST['confirmpassword'];
+$req_prep = $con->prepare("INSERT INTO users (`id`, `firstname`, `lastname`, `email`, `password`, `date`, `address`)VALUES (NULL,:firstname,:lastname,:email,:pass,current_timestamp(),:address1);");
+$req_prep->bindValue(':firstname', $name);
+$req_prep->bindValue(':lastname', $lastname);
+$req_prep->bindValue(':email', $email);
+$req_prep->bindValue(':address1', $address);
+if ($password == $confirmpassword){
+    $hash = password_hash($password,PASSWORD_DEFAULT);
+    $req_prep->bindValue(':pass',$hash);
+    $req_prep->execute(); 
+}
+//header("Location:index.php");
+
+}
+?>
 <div class="container">
   <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-2 border-bottom">
     <div class="col-md-3 mb-2 mb-md-0">
@@ -39,45 +67,40 @@
 <div class="bg-img" style="margin-top: 0%;">
   <main>
     <div class="container">
-        <form class="row g-3 needs-validation was-validated" novalidate="" style="text-align: center; float: right;">
+        <form class="row g-3 needs-validation was-validated" novalidate="" style="text-align: center; float: right;" method="post">
             <h1><span class="badge badge-danger" style="text-shadow: 1px;">Sign Up</span></h1>
               <div class="col-md-3 position-relative">
                 <label for="validationTooltip01" class="form-label">First name</label>
-                <input type="text" class="form-control" id="validationTooltip01" value="Houssam" required="">
+                <input type="text" class="form-control" id="validationTooltip01" name="firstname" required="">
               </div>
               <div class="col-md-3 position-relative">
                 <label for="validationTooltip02" class="form-label">Last name</label>
-                <input type="text" class="form-control" id="validationTooltip02" value="Aoun" required="">
+                <input type="text" class="form-control" id="validationTooltip02" name="lastname" required="">
               </div>
                 <div class="col-md-4 position-relative">
                   <label for="validationTooltipUsername" class="form-label">Email</label>
                 <div class="input-group has-validation">
-                  <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required="">
+                  <input type="text" class="form-control" id="validationTooltipUsername" name="email" aria-describedby="validationTooltipUsernamePrepend" required="">
                 </div>
               </div>
               <div class="col-md-6 position-relative">
                 <label for="validationTooltip03" class="form-label">Address</label>
-                <input type="text" class="form-control" id="validationTooltip03" required="">
+                <input type="text" class="form-control" id="validationTooltip03" name="address" required="">
               </div>
               <div class="col-md-4 position-relative">
-                <label for="validationTooltip04" class="form-label">User type</label>
-                <select class="form-select" id="validationTooltip04" required="">
-                  <option selected="" disabled="" value="">Choose...</option>
-                  <option>Professional Mechanic</option>
-                  <option>Buyer/Seller</option>
-                </select>
               </div>
               <div class="col-12"></div>
                   <div class="col-md-3 position-relative">
                     <label class="form-label">Password</label>
-                    <input type="password" class="form-control" id="validationTooltip04" required=""
+                    <input type="password" class="form-control" name="password" id="validationTooltip04" required=""
                       placeholder="**********" />
                   </div>
                   <br>
                   <!-- input -->
                   <div class="col-md-3 mb-4 position-relative">
                     <label class="form-label">Confirm Password</label>
-                    <input type="password" class="form-control" placeholder="**********" />
+                    <input type="password" class="form-control" name="confirmpassword"
+                      placeholder="**********" />
                   </div>
                   <div class="col-12" style="text-align: center;">
                       <button class="btn btn-danger" type="submit">Create Account</button>
