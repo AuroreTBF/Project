@@ -59,7 +59,7 @@
                 </nav>
             </div>
             <!-- Form on the right -->
-            <div class="col mt-4">
+            <div class="col-md-9 mt-4">
                 <div class="bg-img">
                     <h1><span class="badge badge-secondary car">Join Our Car Community</span></h1>
                     <a href="#" class="badge badge-secondary join">Join now</a>
