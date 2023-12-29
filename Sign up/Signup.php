@@ -15,16 +15,56 @@
 include 'cnx.php';
 $con = cnx_pdo();
 
-if($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['firstname']) && !empty($_POST['lastname']) && !empty($_POST['email'])
-&& !empty($_POST['address']) && !empty($_POST['password']) && !empty($_POST['confirmpassword'])){
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
-//-------------------Prepare statement---------//
-$name = $_POST['firstname'];
-$lastname = $_POST['lastname'] ;
-$email = $_POST['email'] ;
-$password = $_POST['password'];
-$address = $_POST['address'];
-$confirmpassword = $_POST['confirmpassword'];
+  if(empty($_POST['firstname'])){
+    $nameErr = "First Name is required";
+  }else {
+    if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
+      $nameErr = "Only letters and white space allowed";
+    }
+    else{
+      $name = $_POST['firstname'];
+    }
+    
+  }
+
+  if(empty($_POST['lastname'])){
+    $lastnameErr = "Last Name is required";
+  }else {
+    if (!preg_match("/^[a-zA-Z-' ]*$/",$lastname)) {
+      $lastnameErr = "Only letters and white space allowed";
+    }
+    else{
+      $lastname = $_POST['lastname'];
+    }
+  }
+
+  if(empty($_POST['email'])){
+    $emailErr = "Email is required";
+  }else {
+    $email = $_POST['email'];
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      $emailErr = "Invalid email format";
+    }
+  }
+  if(empty($_POST['address'])){
+    $addressErr = "Address is required";
+  }else {
+    $address = $_POST['address'];
+  }
+  if(empty($_POST['password'])){
+    $pwErr = "Password is required";
+  }else {
+    $password = $_POST['password'];
+  }
+  if($_POST['confirmpassword'] != $_POST['password']){
+    $pwErr = "Please confirm your password";
+  }else {
+    $confirmpassword = $_POST['confirmpassword'];
+  }
+if (!empty($password) && !empty($confirmpassword)&& !empty($name) && !empty($lastname) && !empty($email)){
+$stmnt = $pdo->prepare;
 $req_prep = $con->prepare("INSERT INTO users (`id`, `firstname`, `lastname`, `email`, `password`, `date`, `address`)VALUES (NULL,:firstname,:lastname,:email,:pass,current_timestamp(),:address1);");
 $req_prep->bindValue(':firstname', $name);
 $req_prep->bindValue(':lastname', $lastname);
@@ -35,8 +75,7 @@ if ($password == $confirmpassword){
     $req_prep->bindValue(':pass',$hash);
     $req_prep->execute(); 
 }
-//header("Location:index.php");
-
+} 
 }
 ?>
 <div class="container">
@@ -103,6 +142,7 @@ if ($password == $confirmpassword){
                       placeholder="**********" />
                   </div>
                   <div class="col-12" style="text-align: center;">
+                  
                       <button class="btn btn-danger" type="submit">Create Account</button>
                       <button class="btn btn-secondary" type="reset">Cancel</button>
                   </div>
