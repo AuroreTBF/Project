@@ -20,7 +20,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
   if(empty($_POST['firstname'])){
     $nameErr = "First Name is required";
   }else {
-    if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
+    if (!preg_match("/^[a-zA-Z-' ]*$/",$_POST['firstname'])) {
       $nameErr = "Only letters and white space allowed";
     }
     else{
@@ -32,7 +32,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
   if(empty($_POST['lastname'])){
     $lastnameErr = "Last Name is required";
   }else {
-    if (!preg_match("/^[a-zA-Z-' ]*$/",$lastname)) {
+    if (!preg_match("/^[a-zA-Z-' ]*$/",$_POST['lastname'])) {
       $lastnameErr = "Only letters and white space allowed";
     }
     else{
@@ -43,7 +43,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
   if(empty($_POST['email'])){
     $emailErr = "Email is required";
   }else {
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
       $emailErr = "Invalid email format";
     }
     else{
@@ -66,7 +66,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $confirmpassword = $_POST['confirmpassword'];
   }
 if (!empty($password) && !empty($confirmpassword)&& !empty($name) && !empty($lastname) && !empty($email)){
-$stmnt = $pdo->prepare;
 $req_prep = $con->prepare("INSERT INTO users (`id`, `firstname`, `lastname`, `email`, `password`, `date`, `address`)VALUES (NULL,:firstname,:lastname,:email,:pass,current_timestamp(),:address1);");
 $req_prep->bindValue(':firstname', $name);
 $req_prep->bindValue(':lastname', $lastname);
@@ -80,7 +79,7 @@ if ($password == $confirmpassword){
 } 
 }
 ?>
-<div class="container">
+<div class="container"> 
   <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-2 border-bottom">
     <div class="col-md-3 mb-2 mb-md-0">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
