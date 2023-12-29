@@ -102,12 +102,11 @@ if ($password == $confirmpassword){
     </div>
   </header>
 </div>
-
 <!--Main Page-->
 <div class="bg-img" style="margin-top: 0%;">
   <main>
     <div class="container">
-        <form class="row g-3 needs-validation was-validated" novalidate="" style="text-align: center; float: right;" method="post">
+        <form class="row g-3 needs-validation was-validated" novalidate="" style="text-align: center; float: right;" method="post" action='htmlentities($_SERVER(PHP_))'>
             <h1><span class="badge badge-danger" style="text-shadow: 1px;">Sign Up</span></h1>
               <div class="col-md-3 position-relative">
                 <label for="validationTooltip01" class="form-label">First name</label>
