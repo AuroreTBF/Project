@@ -1,9 +1,14 @@
+<?php
+session_start();
+if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER["HTTP_USER_AGENT"] ){
+  
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in</title>
+    <title>Shop</title>
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
@@ -28,15 +33,22 @@
     <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
       <li><a href="#" class="nav-link px-2 link-body-emphasis">Home</a></li>
       <li><a href="#" class="nav-link px-2 link-body-emphasis">Community</a></li>
-      <li><a href="#" class="nav-link px-2 link-body-emphasis">Shop</a></li>
+      <li><a href="" class="nav-link px-2 link-body-emphasis">Shop</a></li>
       <li><a href="#" class="nav-link px-2 link-body-emphasis">FAQs</a></li>
       <li><a href="#" class="nav-link px-2 link-body-emphasis">About</a></li>
     </ul>
       
-    <div class="col-md-3 text-end">
-      <button type="button" class="btn btn-outline-danger me-2">Login</button>
-      <button type="button" class="btn btn-danger">Sign-up</button>
-    </div>
+    <div class="flex-shrink-0 dropdown">
+          <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="../profile_icon.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small shadow">
+            <li><a class="dropdown-item" href="../Change Info/Account Details.php">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="../logout.php">Sign out</a></li>
+          </ul>
+        </div>
   </header>
 </div>
   <main>
@@ -83,3 +95,10 @@
     <div class="row" id="pic"> </div></div>
 </body>
 </html>
+<?php
+}else{
+  header("Location:../LogIn/index.php");
+  exit;
+}
+
+?>
