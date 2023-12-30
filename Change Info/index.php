@@ -29,10 +29,17 @@
       <li><a href="#" class="nav-link px-2 link-body-emphasis">About</a></li>
     </ul>
       
-    <div class="col-md-3 text-end">
-      <button type="button" class="btn btn-outline-danger me-2">Login</button>
-      <button type="button" class="btn btn-danger">Sign-up</button>
-    </div>
+    <div class="flex-shrink-0 dropdown">
+          <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="../profile_icon.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small shadow">
+            <li><a class="dropdown-item" href="../Change Info/Account Details.php">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="../logout.php">Sign out</a></li>
+          </ul>
+        </div>
   </header>
 </div>
 <div class="bg-img">
