@@ -1,3 +1,8 @@
+<?php
+session_start();
+if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER["HTTP_USER_AGENT"] ){
+  
+?>
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head>
@@ -10,7 +15,29 @@
   </head>
 
 <body>
-
+<?php
+require "../cnx.php";
+$con = cnx_pdo();
+$reqUser = $con->prepare("SELECT * FROM users WHERE email =:email");
+        $reqUser->bindValue(':email',$_SESSION['email']);
+        $reqUser->execute();
+        $user = $reqUser->fetch();
+if ($_SERVER['REQUEST_METHOD'] == 'POST'){        
+        $updateaddress = $_POST['address'];
+        $updatename = $_POST['name'];
+        $updatelastname = $_POST['lastname'];
+        $oldpass = sha1($_POST['oldpass']);
+        $updatepass = sha1($_POST['newpass']);
+if($oldpass === $user['password']){
+        $req_prep = $con->prepare("UPDATE users  SET firstname= :fname , password= :pass , address =:addr, lastname =:lname WHERE email =:email");
+        $req_prep->bindValue(':email', $_SESSION['email']);
+        $req_prep->bindValue(':fname', $updatename);
+        $req_prep->bindValue(':lname', $updatelastname);
+        $req_prep->bindValue(':addr', $updateaddress);
+        $req_prep->bindValue(':pass', $updatepass);
+        $req_prep->execute();
+}}
+?>
 <!--Header -->
 <div class="container">
   <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-2 border-bottom">
@@ -34,7 +61,7 @@
             <img src="../profile_icon.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
           </a>
           <ul class="dropdown-menu text-small shadow">
-            <li><a class="dropdown-item" href="../Change Info/Account Details.php">Settings</a></li>
+            <li><a class="dropdown-item" href="../Change Info/index.php">Settings</a></li>
             <li><a class="dropdown-item" href="#">Profile</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="../logout.php">Sign out</a></li>
@@ -61,50 +88,44 @@
             </div>
             <!-- Form on the right -->
             <div class="col-md-9">
-                <form class="row g-3 needs-validation was-validated" novalidate="" style="text-align: center; float: right;">
+                <form class="row g-3 needs-validation was-validated" method="POST" action="<?=htmlentities($_SERVER['PHP_SELF']) ?>" style="text-align: center; float: right;">
                     <h1><span class="badge badge-secondary">Account Details</span></h1>
                       <div class="col-md-3 position-relative">
                         <label for="validationTooltip01" class="form-label">First name</label>
-                        <input type="text" class="form-control" id="validationTooltip01" value="Houssam" required="">
+                        <input type="text" class="form-control" name="name" id="validationTooltip01" value="<?=$user['firstname']?>">
                       </div>
                       <div class="col-md-3 position-relative">
                         <label for="validationTooltip02" class="form-label">Last name</label>
-                        <input type="text" class="form-control" id="validationTooltip02" value="Aoun" required="">
+                        <input type="text" class="form-control" name="lastname" id="validationTooltip02" value="<?=$user['lastname']?>">
                       </div>
                         <div class="col-md-4 position-relative">
                           <label for="validationTooltipUsername" class="form-label">Email</label>
                         <div class="input-group has-validation">
-                          <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required="">
+                          <input type="text" class="form-control" name="email" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" value="<?=$user['email']?>">
                         </div>
                       </div>
                       <div class="col-md-6 position-relative">
                         <label for="validationTooltip03" class="form-label">Address</label>
-                        <input type="text" class="form-control" id="validationTooltip03" required="">
+                        <input type="text" class="form-control" name="address" id="validationTooltip03" value="<?=$user['address']?>">
                       </div>
-                      <div class="col-md-4 position-relative">
-                        <label for="validationTooltip04" class="form-label">User type</label>
-                        <select class="form-select" id="validationTooltip04" required="">
-                          <option selected="" disabled="" value="">Choose...</option>
-                          <option>Professional Mechanic</option>
-                          <option>Buyer/Seller</option>
-                        </select>
-                      </div>
+                      <div class="row">
                       <div class="col-12"></div>
                           <div class="col-md-3 position-relative">
                             <label class="form-label">Old Password</label>
-                            <input type="password" class="form-control" id="validationTooltip04" required=""
+                            <input type="password" class="form-control" id="validationTooltip04" name="oldpass"
                               placeholder="**********" />
                           </div>
                           <br>
                           <!-- input -->
                           <div class="col-md-3 mb-4 position-relative">
                             <label class="form-label">New Password</label>
-                            <input type="password" class="form-control" onchange="valpw()"
+                            <input type="password" class="form-control" name="newpass"
                               placeholder="**********" />
                           </div>
                           <div class="col-12" style="text-align: center;">
-                              <button class="btn btn-danger" type="submit">Confirm Changes</button>
+                              <button class="btn btn-danger" name="change" type="submit">Confirm Changes</button>
                               <button class="btn btn-secondary" type="reset">Cancel</button>
+                          </div>
                           </div>
                   </div>
                 </form>
@@ -114,3 +135,10 @@
 </div>
   </body>
 </html>
+<?php
+}else{
+  header("Location:../LogIn/index.php");
+  exit;
+}
+
+?>

@@ -15,7 +15,6 @@ if(isset($_POST['login']) && $_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_PO
             //-----------Redirection-------------------
           session_start();
           $_SESSION['open'] = true;
-          $_SESSION['open'] = $user['id'];
           $_SESSION['email'] = $user['email'];
           $_SESSION['role'] = ($user['role']==1)?"Super Admin":"Admin";
           $_SESSION['nav']  =$_SERVER["HTTP_USER_AGENT"]; //navigateur
