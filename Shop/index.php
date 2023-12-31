@@ -43,7 +43,7 @@ if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER
             <img src="../profile_icon.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
           </a>
           <ul class="dropdown-menu text-small shadow">
-            <li><a class="dropdown-item" href="../Change Info/Account Details.php">Settings</a></li>
+            <li><a class="dropdown-item" href="../Change Info/index.php">Settings</a></li>
             <li><a class="dropdown-item" href="#">Profile</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="../logout.php">Sign out</a></li>

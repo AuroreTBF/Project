@@ -51,7 +51,7 @@ if($oldpass === $user['password']){
     <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
       <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
       <li><a href="#" class="nav-link px-2 link-body-emphasis">Community</a></li>
-      <li><a href="#" class="nav-link px-2 link-body-emphasis">Shop</a></li>
+      <li><a href="../Shop/index.php" class="nav-link px-2 link-body-emphasis">Shop</a></li>
       <li><a href="#" class="nav-link px-2 link-body-emphasis">FAQs</a></li>
       <li><a href="#" class="nav-link px-2 link-body-emphasis">About</a></li>
     </ul>
@@ -101,15 +101,14 @@ if($oldpass === $user['password']){
                         <div class="col-md-4 position-relative">
                           <label for="validationTooltipUsername" class="form-label">Email</label>
                         <div class="input-group has-validation">
-                          <input type="text" class="form-control" name="email" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" value="<?=$user['email']?>">
+                          <input type="text" class="form-control" name="email" disabled value="<?=$user['email']?>">
                         </div>
                       </div>
                       <div class="col-md-6 position-relative">
                         <label for="validationTooltip03" class="form-label">Address</label>
                         <input type="text" class="form-control" name="address" id="validationTooltip03" value="<?=$user['address']?>">
                       </div>
-                      <div class="row">
-                      <div class="col-12"></div>
+                      <div class="row"> </div>
                           <div class="col-md-3 position-relative">
                             <label class="form-label">Old Password</label>
                             <input type="password" class="form-control" id="validationTooltip04" name="oldpass"
@@ -122,12 +121,12 @@ if($oldpass === $user['password']){
                             <input type="password" class="form-control" name="newpass"
                               placeholder="**********" />
                           </div>
-                          <div class="col-12" style="text-align: center;">
-                              <button class="btn btn-danger" name="change" type="submit">Confirm Changes</button>
-                              <button class="btn btn-secondary" type="reset">Cancel</button>
-                          </div>
-                          </div>
-                  </div>
+                            <div>
+                              <div class="col-12" style="text-align: center;">
+                                <button class="btn btn-danger" name="change" onclick="return confirm('Would you like to apply the changes?')" type="submit">Confirm Changes</button>
+                                <button class="btn btn-secondary" type="reset">Cancel</button>
+                              </div>
+                            </div>
                 </form>
             </div>
         </div>

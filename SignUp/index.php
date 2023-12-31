@@ -14,31 +14,28 @@
 <?php
 include '../cnx.php';
 $con = cnx_pdo();
-
+$nameErr = "First Name is required";
+$lastnameErr ="Last Name is required";
+$emailErr = "Email is required";
+$addressErr = "Address is required";
+$pwErr = "Password is required";
+$pwErr2 = "Please confirm your password";
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     //---------verifier si user exist------------
   $reqUser = $con->prepare("SELECT * FROM users WHERE email =:email");
   $reqUser->bindValue(':email',$_POST['email']);
   $reqUser->execute();
   $user = $reqUser->fetch();
-  $nameErr = "";
-  $lastnameErr ="";
-  $emailErr = "";
-  $addressErr = "";
-  $pwErr = "";
-  if(empty($_POST['firstname'])){
-    $nameErr = "First Name is required";
-  }else {
+  if(!empty($_POST['firstname'])){
     if (!preg_match("/^[a-zA-Z-' ]*$/",$_POST['firstname'])) {
       $nameErr = "Only letters and white space allowed";
     }
     else{
       $name = $_POST['firstname'];
     }
-    
   }
 
-  if(empty($_POST['lastname'])){
+  if(!empty($_POST['lastname'])){
     $lastnameErr = "Last Name is required";
   }else {
     if (!preg_match("/^[a-zA-Z-' ]*$/",$_POST['lastname'])) {
@@ -49,9 +46,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     }
   }
 
-  if(empty($_POST['email'])){
-    $emailErr = "Email is required";
-  }else {
+  if(!empty($_POST['email'])){
     if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
       $emailErr = "Invalid email format";
     }
@@ -62,18 +57,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
       $email = $_POST['email'];
     }
   }
-  if(empty($_POST['address'])){
-    $addressErr = "Address is required";
-  }else {
+  if(!empty($_POST['address'])){
     $address = $_POST['address'];
   }
-  if(empty($_POST['password'])){
-    $pwErr = "Password is required";
-  }else {
+  if(!empty($_POST['password'])){
     $password = $_POST['password'];
   }
   if($_POST['confirmpassword'] != $_POST['password']){
-    $pwErr = "Please confirm your password";
+    $pwErr2 = "Password doesn't match";
   }else {
     $confirmpassword = $_POST['confirmpassword'];
   }
@@ -123,39 +114,56 @@ if ($password == $confirmpassword){
             <h1><span class="badge badge-danger" style="text-shadow: 1px;">Sign Up</span></h1>
               <div class="col-md-3 position-relative">
                 <label for="validationTooltip01" class="form-label">First name</label>
-                <input type="text" class="form-control" id="validationTooltip01" name="firstname" required="<?= $nameErr ?>">
+                <input type="text" class="form-control" id="validationTooltip01" name="firstname" required>
+                <div class="invalid-tooltip">
+                <?=$nameErr?>
+                </div>
               </div>
               <div class="col-md-3 position-relative">
                 <label for="validationTooltip02" class="form-label">Last name</label>
-                <input type="text" class="form-control" id="validationTooltip02" name="lastname" required="<?= $lastnameErr ?>">
+                <input type="text" class="form-control" id="validationTooltip02" name="lastname" required>
+                <div class="invalid-tooltip">
+                <?=$lastnameErr?>
+                </div>
               </div>
                 <div class="col-md-4 position-relative">
                   <label for="validationTooltipUsername" class="form-label">Email</label>
                 <div class="input-group has-validation">
-                  <input type="text" class="form-control" id="validationTooltipUsername" name="email" aria-describedby="validationTooltipUsernamePrepend" required="<?= $emailErr ?>">
+                  <input type="text" class="form-control" id="validationTooltipUsername" name="email" required>
+                  <div class="invalid-tooltip">
+                <?=$emailErr?>
+                </div>
                 </div>
               </div>
               <div class="col-md-6 position-relative">
                 <label for="validationTooltip03" class="form-label">Address</label>
-                <input type="text" class="form-control" id="validationTooltip03" name="address" required="<?= $addressErr ?>">
+                <input type="text" class="form-control" id="validationTooltip03" name="address" required>
+                <div class="invalid-tooltip">
+                <?=$addressErr?>
+                </div>
               </div>
               <div class="col-md-4 position-relative">
               </div>
               <div class="col-12"></div>
                   <div class="col-md-3 position-relative">
                     <label class="form-label">Password</label>
-                    <input type="password" class="form-control" name="password" id="validationTooltip04" required="<?= $pwErr ?>"
+                    <input type="password" class="form-control" name="password" id="validationTooltip04" required=""
                       placeholder="**********" />
+                      <div class="invalid-tooltip">
+                <?=$pwErr?>
+                  </div>  
                   </div>
                   <br>
                   <!-- input -->
-                  <div class="col-md-3 mb-4 position-relative">
+                  <div class="col-md-3 position-relative">
                     <label class="form-label">Confirm Password</label>
                     <input type="password" class="form-control" name="confirmpassword" required="<?= $pwErr ?>"
                       placeholder="**********" />
+                      <div class="invalid-tooltip">
+                <?=$pwErr2?>
+                </div>  
                   </div>
-                  <div class="col-12" style="text-align: center;">
-                  
+                  <div class="col-12" style="text-align: center; margin-top:80px">
                       <button class="btn btn-danger" type="submit">Create Account</button>
                       <button class="btn btn-secondary" type="reset">Cancel</button>
                   </div>
