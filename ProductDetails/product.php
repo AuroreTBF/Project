@@ -1,7 +1,20 @@
 <?php
 session_start();
 if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER["HTTP_USER_AGENT"] ){
-  
+ob_start();
+require "../cnx.php";
+if(isset($_GET['product_id'])) {
+$con = cnx_pdo();
+$sql = "SELECT * FROM products WHERE product_id=:prod";
+$req = $con->prepare($sql);
+$req->bindValue(':prod',$_GET['product_id']);
+$req->execute();
+$product = $req->fetch();
+$ratings = $con->prepare("SELECT r.* , CONCAT(u.firstname , u.lastname) AS user_name FROM ratings r JOIN users u ON u.id = r.user_id WHERE product_id = :product_id");
+$ratings -> bindValue(":product_id",$_GET['product_id']);
+$ratings ->execute();
+$review=$ratings->fetchAll();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,15 +34,14 @@ if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER
 <body>
 <!--Header -->
 <?php
-$quantity=7;
 $value = isset($_POST['item']) ? $_POST['item'] : 1; //to be displayed
 if(isset($_POST['incqty'])){
-  if($value < $quantity){
+  if($value < $product['stock']){
    $value += 1;
   }
 }
 if(isset($_POST['decqty'])){
-  if($value >=0){
+  if($value >0){
     $value -= 1;                                          
 }}
 ?>
@@ -45,7 +57,7 @@ if(isset($_POST['decqty'])){
     <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
       <li><a href="#" class="nav-link px-2 link-body-emphasis">Home</a></li>
       <li><a href="#" class="nav-link px-2 link-body-emphasis">Community</a></li>
-      <li><a href="" class="nav-link px-2 link-body-emphasis">Shop</a></li>
+      <li><a href="../Shop/index.php" class="nav-link px-2 link-body-emphasis">Shop</a></li>
       <li><a href="#" class="nav-link px-2 link-body-emphasis">FAQs</a></li>
       <li><a href="#" class="nav-link px-2 link-body-emphasis">About</a></li>
     </ul>
@@ -64,6 +76,7 @@ if(isset($_POST['decqty'])){
   </header>
 </div>
   <main>
+<!-- ========== Breadcrumb ========== -->
   <div class="container my-5">
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb p-3 bg-body-tertiary rounded-3">
@@ -77,32 +90,54 @@ if(isset($_POST['decqty'])){
         <a class="link-body-emphasis fw-semibold text-decoration-none" href="../Shop/index.php">Shop</a>
       </li>
       <li class="breadcrumb-item active" aria-current="page">
-        Item
+      <?=$product['name']?>
       </li>
     </ol>
   </nav>
 </div>
+<!-- ========== Product ========== -->
 <div class="container">
   <div class="row">
     <div class="col-lg-5 col-md-12 col-12 border-right">
-      <img src="../Shop/Images/1.png" class="rounded img-fluid" width="80%">
+      <img src="../Shop/Images/<?=$product['image']?>" class="rounded img-fluid" width="80%">
     </div>
     <div class="col-md-6 col-ml- border border-secondary rounded">
-      <div class="row-ml-5 mt-2 h4">Engine Clean</div>
-        <i class="bx bxs-star star"></i>
-        <i class="bx bxs-star star"></i>
-        <i class="bx bxs-star star"></i>
-        <i class="bx bxs-star star"></i>
-        <i class="bx bxs-star star"></i>
-       (<span>49</span>)
+      <div class="row-ml-5 mt-2 h4"><?=$product['name']?></div>
+<?php 
+$averageRatingQuery = $con->prepare("SELECT AVG(rating) AS avg_rating FROM ratings WHERE product_id = :product_id");
+$averageRatingQuery->bindValue(':product_id', $_GET['product_id']);
+$averageRatingQuery->execute();
+$avg = $averageRatingQuery->fetch();
+$x =$avg['avg_rating'];
+$z ="";
+for ($i=0;$i<5;$i++){
+    if($x==0.5){
+        $z=$z.'<i class="bx bxs-star-half"></i>';
+    }
+    else if($x>=1){
+        $z=$z.'<i class="bx bxs-star"></i>';
+    }
+    else if($x<=0){
+        $z=$z.'<i class="bx bx-star" style="o"></i>';
+    }
+    $x-=1;
+  }
+$ratingsCount = $con->prepare("SELECT COUNT(*) AS total_ratings FROM ratings WHERE product_id = :product_id");
+$ratingsCount->bindValue(':product_id', $_GET['product_id']);
+$ratingsCount->execute();
+$count = $ratingsCount->fetch();
+echo $z;
+echo "(<span>".$count['total_ratings']."</span>)";
+      ?>
+       
       
       <div class="row-ml-6 ">
         <div class="col text-danger">
-       <strong>551.76 MAD</strong>
+       <strong><?=$product['price']. " DH"?></strong>
        </div>
-       <div class="col text-success"><strong> Quantity: <?= $quantity ?> </strong></div>
+       <div class="col text-success"><strong> <?='In Stock: '.$product['stock']?> </strong></div>
       </div>
-      <div class="row-ml-6">Our Engine Clean solution offers a high-performance, advanced formula designed to deeply cleanse and revitalize your vehicle's engine. It efficiently dissolves tough grease and grime, restoring optimal performance without compromising engine integrity. Easy to use and trusted by professionals, it ensures a visibly cleaner and smoother-running engine for peak performance and longevity.</div>
+      <div class="row-ml-6"><?= $product['description'] ?></div>
         <div class="row" style="margin-top: 20px; text-align:center">
         <form method="post">
           <div class="btn-group" role="group" aria-label="Basic example">
@@ -130,29 +165,79 @@ if(isset($_POST['decqty'])){
       </div>
   </h1>
 </div>
-<div class="container border">
-<a class="nav-link link-body-emphasis" href="#"><img src="../profile_icon.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
-  <div class="row m-lg-0">Irhal Haitam </div></a>
-  <div class="col">
-  <i class="bx bxs-star star"></i>
-  <i class="bx bxs-star star"></i>
-  <i class="bx bxs-star star"></i>
-  <i class="bx bxs-star star"></i>
-  <i class="bx bxs-star star"></i>
-  </div>
-  <div class="row h4" style="margin-left:auto">
-  Unmatched Shine & Protection!
-  </div>
-  <div class="row" style="margin-left: auto;">
-  This ultra fine polish is a game-changer! Effortless application, stunning mirror-like finish, and exceptional durability. My car looks brand new, stays protected, and the results are simply mind-blowing. A must-have for any car lover! Highly recommended.
-  </div>
 
-  <div class="col-md-6 text-primary"><strong>Helpful?</strong></div>
+<!-- ========== Reviews ========== -->
 
-    <form><button class="btn btn-outline-success mb-4">Yes(2)</button>
-    <button class="btn btn-outline-danger mb-4">No(0)</button></form>
-    </div>
-</div>  
+<?php
+foreach ($review as $rev){
+  $req=$con->prepare("SELECT sum(isLike = 1) as approved, sum(isLike = 0) as disapproved FROM likes WHERE review_id = :review_id");
+  $req->bindValue(':review_id',$rev['id']);
+  $req->execute();
+  $appr = $req->fetch();
+  $req=$con->prepare('SELECT * FROM likes WHERE user_id = :user_id AND review_id = :review_id');
+  $req->bindValue(":review_id",$rev['id']);
+  $req->bindValue(":user_id",$_SESSION['id']);
+  $req->execute();
+  $userrating = $req->fetch();
+  if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (isset($_POST['approve' . $rev['id']])) {
+    if (!empty($userrating)){
+      $req=$con->prepare('UPDATE likes SET isLike = 1 WHERE user_id = :user_id AND review_id = :review_id');
+    }else{
+      $req=$con->prepare('INSERT INTO likes(id,review_id,user_id, isLike) VALUES (NULL,:review_id,:user_id,0)');}
+      $req->bindValue(":review_id",$rev['id']);
+      $req->bindValue(":user_id",$_SESSION['id']);
+      $req->execute();
+      header("Refresh:0");
+      exit();
+    }
+  elseif (isset($_POST['disapprove' . $rev['id']])) {
+      if (!empty($userrating)){
+        $req=$con->prepare('UPDATE likes SET isLike = 0 WHERE user_id = :user_id AND review_id = :review_id');
+      }else{
+        $req=$con->prepare('INSERT INTO likes(id,review_id,user_id, isLike) VALUES (NULL,:review_id,:user_id,0)');}
+        $req->bindValue(":review_id",$rev['id']);
+        $req->bindValue(":user_id",$_SESSION['id']);
+        $req->execute();
+        header("Refresh:0");
+        exit();
+      }}
+
+  $x =$rev['rating'];
+  $z ="";
+  for ($i=0;$i<5;$i++){
+      if($x==0.5){
+          $z=$z.'<i class="bx bxs-star-half"></i>';
+      }
+      else if($x>=1){
+          $z=$z.'<i class="bx bxs-star"></i>';
+      }
+      else if($x<=0){
+          $z=$z.'<i class="bx bx-star" style="o"></i>';
+      }
+      $x-=1;
+  }
+echo '<div class="container border">';
+echo '<a class="nav-link link-body-emphasis" href="#"><img src="../profile_icon.jpg" alt="mdo" width="32" height="32" class="rounded-circle"></a>';
+echo  '<div class="row m-lg-0">'.$rev['user_name']. '</div></a>';
+echo  '<div class="col">';
+echo $z;
+echo '</div>';
+echo '<div class="row h4" style="margin-left:auto">';
+echo $rev['title'];
+echo  '</div>';
+echo '<div class="row" style="margin-left: auto;">';
+echo $rev['description'];
+echo  '</div>';
+echo '<div class="col-md-6 text-primary"><strong>Helpful?</strong></div>';
+echo '<form method="post">';
+echo '<button type="submit" class="btn btn-outline-success mb-4" name="approve' . $rev['id'] . '">Like(' . $appr['approved'] . ')</button>';
+echo '<button type="submit" class="btn btn-outline-danger mb-4" name="disapprove' . $rev['id'] . '">Dislike(' . $appr['disapproved'] . ')</button>';
+echo '</form>';
+echo'</div>';
+}
+?>
+<!-- ========== Write your own review ========== -->
 <div class="container items border-top" style="margin-top: 100px; text-align: center; margin-bottom:30px;">
   <h1 class="row mt-4 font-weight-bold text-danger">
       <div class="col">
@@ -160,22 +245,36 @@ if(isset($_POST['decqty'])){
       </div>
   </h1>
 </div>
+<?php
+if (!empty($_POST['rating']) && $_POST['rating'] >= 0 && $_POST['rating'] <= 5) {
+  if (isset($_POST['review']) && !empty($_POST['title']) && !empty($_POST['description'])) {
+      $req = $con->prepare('INSERT INTO `ratings` (`id`, `product_id`, `user_id`, `rating`, `title`, `description`, `date_created`) VALUES (NULL, :product_id, :user_id, :rating, :title, :description, current_timestamp())');
+      $req->bindValue(":product_id", $_GET['product_id']);
+      $req->bindValue(":user_id", $_SESSION['id']);
+      $req->bindValue(":rating", $_POST['rating']);
+      $req->bindValue(":description", $_POST['description']);
+      $req->bindValue(":title", $_POST['title']);
+      $req->execute();
+      header("Refresh:0");
+  }
+}
+?>
 <div class="container">
-  <form>
+  <form method="post">
         <div class="form-floating mb-3">
-        <input type="number" name="rating" class="form-control" max="5" style="width: auto;">
+        <input type="number" name="rating" step="0.1" class="form-control" max="5" style="width: auto;" require min="1">
         <label for="floatingInput">Rating (?/5)</label>      
       </div>
       <div class="form-floating mb-3">
-        <input type="text" name="title" class="form-control" style="width: auto;">
+        <input type="text" name="title" class="form-control" style="width: auto;" require>
         <label for="floatingInput">Title</label>      
       </div>
       <div class="form-floating mb-3">
-        <input type="text" name="description" class="form-control" style="width: auto; height:200px">
+        <textarea name="description" class="form-control" style="width: auto; height:200px text-align" rows="5" require></textarea>
         <label for="floatingInput">description</label>      
       </div>  
       <div class="col-12">
-      <button class="btn btn-danger" name="change" onclick="return confirm('Confirm Review.')" type="submit">Write Review</button> </div>
+      <button class="btn btn-danger" name="review" onclick="return confirm('Confirm Review.')" type="submit">Write Review</button> </div>
   </form>
 </div>
   </main><div class="container">

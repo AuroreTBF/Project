@@ -19,8 +19,15 @@ if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER
     <script src="app.js"></script>
   </head>
 
-<body onload="rechercher()">
+<body>
 <!--Header -->
+<?php
+require "../cnx.php";
+$con = cnx_pdo();
+$sql = "SELECT * FROM products";
+$req = $con->query($sql);
+$product = $req->fetchAll();
+?>
 <div class="container">
   <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-2 border-bottom">
     <div class="col-md-3 mb-2 mb-md-0">
@@ -87,12 +94,42 @@ if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER
     <div class="container">
     <div class="row">
         <div class="col">
-            <input type="text" id="rech" onchange="rechercher()" class="form-control mt-3 mb-3 h3" placeholder="Search for Product" >
-            
+            <input type="text" id="rech" class="form-control mt-3 mb-3 h3" placeholder="Search for Product" >
         </div>
     </div>
 
-    <div class="row" id="pic"> </div></div>
+    <div class="row" id="pic"> 
+<?php 
+foreach ($product as $prod){
+$x =$prod['rating'];
+$z ="";
+for ($i=0;$i<5;$i++){
+    if($x==0.5){
+        $z=$z.'<i class="bx bxs-star-half"></i>';
+    }
+    else if($x>=1){
+        $z=$z.'<i class="bx bxs-star"></i>';
+    }
+    else if($x<=0){
+        $z=$z.'<i class="bx bx-star" style="o"></i>';
+    }
+    $x-=1;
+}
+ echo '<div class="card col-md-3 col-sm-12" style="text-align: center;">';
+ echo'<img class ="image" src="Images/'.$prod['image'].'" class="card-img-top" alt="...">';
+ echo '<div class="card-body">';
+ echo '<h5 class="card-title">'.$prod['name'].'</h5>'; 
+ echo '<p class="card-text text-danger">'.$prod['price'].' DH</p>';
+ echo $z;
+ echo '</div>';
+ echo'<div class="card-footer">';
+ echo'<button class="button-hover addcart button"><span>Add to cart</span><i class="fa fa-shopping-cart"></i></button>';
+ echo'<a href="../ProductDetails/product.php?product_id='.$prod['product_id'].']"><button class="button-hover details button"><span>Details</span><i class="bx bx-link-external"></i></button></a>';
+ echo'</div>';
+ echo'</div>';
+}
+?>
+    </div></div>
 </body>
 </html>
 <?php

@@ -15,6 +15,7 @@ if(isset($_POST['login']) && $_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_PO
             //-----------Redirection-------------------
           session_start();
           $_SESSION['open'] = true;
+          $_SESSION['id']= $user['id'];
           $_SESSION['email'] = $user['email'];
           $_SESSION['nav']  =$_SERVER["HTTP_USER_AGENT"]; //navigateur
           $_SESSION['ip'] = $_SERVER['REMOTE_ADDR']; //ip
