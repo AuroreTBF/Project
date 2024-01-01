@@ -84,10 +84,10 @@ if(isset($_POST['decqty'])){
 </div>
 <div class="container">
   <div class="row">
-    <div class="col-lg-5 col-md-12 col-12">
+    <div class="col-lg-5 col-md-12 col-12 border-right">
       <img src="../Shop/Images/1.png" class="rounded img-fluid" width="80%">
     </div>
-    <div class="col-md-7 col-ml- border border-secondary rounded">
+    <div class="col-md-6 col-ml- border border-secondary rounded">
       <div class="row-ml-5 mt-2 h4">Engine Clean</div>
         <i class="bx bxs-star star"></i>
         <i class="bx bxs-star star"></i>
@@ -112,11 +112,83 @@ if(isset($_POST['decqty'])){
           </div>
         <span style="margin-left: 40px;"><button class="btn btn-danger" name="addtocart">Add to Cart</button></span>
         <span style="margin-left: 40px;"><button id="heart"class="btn btn-outline-danger" name="wishlist"><i class='bx bxs-heart'></i></button></span>
+        <div class="row">
+          <div class="col mx-auto mt-4">
+        <button class="btn btn-danger" style="height: 50px; width: 400px;">Compare Product To Another</button>
+        </div>
+        </div>
         </form>
       </div>
     </div>
   </div>
 </div>
+</div>
+<div class="container items border-top" style="margin-top: 100px; text-align: center; margin-bottom:30px;">
+  <h1 class="row mt-4 font-weight-bold text-danger">
+      <div class="col">
+        <button class="border rounded border-danger bg-danger">&nbsp;&nbsp;&nbsp;</button> Product Reviews 
+      </div>
+  </h1>
+</div>
+<div class="container border">
+<a class="nav-link link-body-emphasis" href="#"><img src="../profile_icon.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+  <div class="row m-lg-0">Irhal Haitam </div></a>
+  <div class="col">
+  <i class="bx bxs-star star"></i>
+  <i class="bx bxs-star star"></i>
+  <i class="bx bxs-star star"></i>
+  <i class="bx bxs-star star"></i>
+  <i class="bx bxs-star star"></i>
+  </div>
+  <div class="row h4" style="margin-left:auto">
+  Unmatched Shine & Protection!
+  </div>
+  <div class="row" style="margin-left: auto;">
+  This ultra fine polish is a game-changer! Effortless application, stunning mirror-like finish, and exceptional durability. My car looks brand new, stays protected, and the results are simply mind-blowing. A must-have for any car lover! Highly recommended.
+  </div>
+
+  <div class="col-md-6 text-primary"><strong>Helpful?</strong></div>
+
+    <form><button class="btn btn-outline-success mb-4">Yes(2)</button>
+    <button class="btn btn-outline-danger mb-4">No(0)</button></form>
+    </div>
+</div>  
+<div class="container items border-top" style="margin-top: 100px; text-align: center; margin-bottom:30px;">
+  <h1 class="row mt-4 font-weight-bold text-danger">
+      <div class="col">
+        <button class="border rounded border-danger bg-danger">&nbsp;&nbsp;&nbsp;</button> Write Your Own Review!
+      </div>
+  </h1>
+</div>
+<div class="container">
+  <form>
+        <div class="form-floating mb-3">
+        <input type="number" name="rating" class="form-control" max="5" style="width: auto;">
+        <label for="floatingInput">Rating (?/5)</label>      
+      </div>
+      <div class="form-floating mb-3">
+        <input type="text" name="title" class="form-control" style="width: auto;">
+        <label for="floatingInput">Title</label>      
+      </div>
+      <div class="form-floating mb-3">
+        <input type="text" name="description" class="form-control" style="width: auto; height:200px">
+        <label for="floatingInput">description</label>      
+      </div>  
+      <div class="col-12">
+      <button class="btn btn-danger" name="change" onclick="return confirm('Confirm Review.')" type="submit">Write Review</button> </div>
+  </form>
+</div>
+  </main><div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">&copy; 2023 MecAssist, Inc</p>
+  </footer>
 </div>
 
 </body>
