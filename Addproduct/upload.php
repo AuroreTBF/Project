@@ -1,14 +1,6 @@
 <?php
 session_start();
 if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER["HTTP_USER_AGENT"] ){
-
-  $to = "archlee196@gmail.com";
-  $subject = "My subject";
-  $txt = "Hello world!";
-  $header = "From: archlee169@gmail.com";
-  
-  mail($to,$subject,$txt,$header);
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
