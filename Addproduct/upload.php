@@ -1,3 +1,15 @@
+<?php
+session_start();
+if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER["HTTP_USER_AGENT"] ){
+
+  $to = "archlee196@gmail.com";
+  $subject = "My subject";
+  $txt = "Hello world!";
+  $header = "From: archlee169@gmail.com";
+  
+  mail($to,$subject,$txt,$header);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +25,65 @@
     <script src="../js/bootstrap.bundle.js"></script>
     <script src="app.js"></script>
   </head>
-<!--Header -->
+
 <body>
+
+<?php
+// Include the database configuration file 
+require "../cnx.php";
+$con = cnx_pdo();
+if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+$target_dir = "../Shop/Images/";
+$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+$uploadOk = 1;
+$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+
+// Check if image file is a actual image or fake image
+if(isset($_POST["submit"])) {
+  $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+  if($check !== false) {
+    echo "File is an image - " . $check["mime"] . ".";
+    $uploadOk = 1;
+  } else {
+    echo "File is not an image.";
+    $uploadOk = 0;
+  }
+}
+// Check file size
+if ($_FILES["fileToUpload"]["size"] > 500000) {
+  echo "Sorry, your file is too large.";
+  $uploadOk = 0;
+}
+
+// Allow certain file formats
+if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
+&& $imageFileType != "gif" ) {
+  echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
+  $uploadOk = 0;
+}
+
+// Check if $uploadOk is set to 0 by an error
+if ($uploadOk == 0) {
+  echo "Sorry, your file was not uploaded.";
+// if everything is ok, try to upload file
+} else {
+  if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
+    echo "The Product has been uploaded successfully.";
+      $insert = $con->prepare("INSERT INTO products(product_id,Category_id,user_id,name,price,description,stock,image,date_created) VALUES (NULL,:catid,:id,:prod,:price,:desc,:stock,:image,current_timestamp())"); 
+      $insert ->bindValue(":catid",$_POST['type']);
+      $insert ->bindValue(":id",$_SESSION['id']);
+      $insert ->bindValue(":prod",$_POST['name']);
+      $insert ->bindValue(":price",$_POST['price']);
+      $insert ->bindValue(":desc",$_POST['description']);
+      $insert ->bindValue(":stock",$_POST['quantity']);
+      $insert ->bindValue(":image", htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])));
+      $insert ->execute();
+  } else {
+    echo "Sorry, there was an error uploading your product.";
+  }
+}}
+?>
+<!--Header -->
   <div class="container">
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-2 border-bottom">
       <div class="col-md-3 mb-2 mb-md-0">
@@ -71,25 +140,44 @@
     </h1>
   </div>
   <div class="container">
-    <form >
+  <form action="upload.php" method="post" enctype="multipart/form-data">
         <div class="form-floating mb-3">
-          <input type="text" name="title" class="form-control" style="width: auto;">
-          <label for="floatingInput">Title</label>      
+          <input type="text" name="name" class="form-control" style="width: auto;" require>
+          <label for="floatingInput">Product Name</label>      
+</div>
+        <div class="form-floating mb-3">
+          <input type="number" step="0.01" name="price" class="form-control" style="width: auto;" require>
+          <label for="floatingInput">price</label>      
         </div>
         <div class="form-floating mb-3">
-          <input type="text" name="description" class="form-control" style="width: auto; height:200px">
+          <input type="number" step="1" name="quantity" class="form-control" style="width: auto;" require>
+          <label for="floatingInput">Quantity</label>      
+        </div>
+        <div class="form-floating mb-3">
+        <div class="dropdown-center mb-3">
+        <label for="cars">Category:</label>
+        <select id="cars" name="type" class="btn" require>
+          <option value="1">Washing</option>
+          <option value="2">Correction & Polishing</option>
+          <option value="3">Protective Wax</option>
+          <option value="4">Rim Tires</option>
+          <option value="5">Windows and Healights</option>
+          <option value="6">Interior</option>
+          <option value="7">Accessories</option>
+          <option value="8">Kits</option>
+          <option value="9">Others</option>
+        </select>
+        </div>
+        </div>
+        <div class="form-floating mb-3">
+          <textarea type="text" name="description" class="form-control" style="width: auto; height:200px" require> </textarea>
           <label for="floatingInput">description</label>      
         </div>  
         <div class="col-md-2 mb-3 text-center">
-        <button class="btn btn-outline-danger" type="button" onclick="cancelSelection()">Cancel</button>
-        <button class="btn btn-danger" name="change" onclick="alert ('are you sure?')" type="submit">Post</button>
+        <input type="file" class="btn btn-danger" name="fileToUpload" id="fileToUpload">
+        <button class="btn btn-outline-danger" type="reset">Cancel</button>
+        <button class="btn btn-danger px-3" type="submit" value="Upload Image" name="submit" onclick="confirm('Post?')">Post</button>
         </div>
-        <button><input  class="btn btn-outline-danger" type="file" value="Upload"></button>
-      <div id="preview"></div>
-      <div class="Upload">
-    </div>
-    
-    
     </form>
   </div>
 </body>
@@ -106,3 +194,10 @@
   </footer>
 </div>
 </html>
+<?php
+}else{
+  header("Location:../LogIn/index.php");
+  exit;
+}
+
+?>

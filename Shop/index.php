@@ -101,7 +101,11 @@ $product = $req->fetchAll();
     <div class="row" id="pic"> 
 <?php 
 foreach ($product as $prod){
-$x =$prod['rating'];
+$averageRatingQuery = $con->prepare("SELECT AVG(rating) AS avg_rating FROM ratings WHERE product_id = :product_id");
+$averageRatingQuery->bindValue(':product_id', $prod['product_id']);
+$averageRatingQuery->execute();
+$avg = $averageRatingQuery->fetch();
+$x =$avg['avg_rating'];
 $z ="";
 for ($i=0;$i<5;$i++){
     if($x==0.5){
