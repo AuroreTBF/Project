@@ -1,0 +1,1 @@
+deleting account will NOT work if the database does not have DELETE CASCADE assuming you have foreign keys;

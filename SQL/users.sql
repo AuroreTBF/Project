@@ -1,4 +1,12 @@
-CREATE TABLE USERS;
+CREATE TABLE users (
+    id INT(80) AUTO_INCREMENT PRIMARY KEY,
+    firstname TEXT,
+    lastname TEXT,
+    email VARCHAR(50),
+    password VARCHAR(50),
+    date DATE,
+    address VARCHAR(255)
+);
 INSERT INTO users (firstname, lastname, email, address, date, password)
 VALUES 
     ('Alice', 'Johnson', 'alice.johnson@example.com', '123 Main St, Cityville',CURRENT_DATE ,'21bd12dc183f740ee76f27b78eb39c8ad972a757'),

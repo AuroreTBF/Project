@@ -62,7 +62,6 @@ if($oldpass === $user['password']){
           </a>
           <ul class="dropdown-menu text-small shadow">
             <li><a class="dropdown-item" href="../Change Info/index.php">Settings</a></li>
-            <li><a class="dropdown-item" href="#">Profile</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="../logout.php">Sign out</a></li>
           </ul>
@@ -77,12 +76,11 @@ if($oldpass === $user['password']){
             <div class="col-md-3" style="margin-top: 100px;"> <!-- Adjust margin-top as needed -->
                 <nav>
                     <ul class="nav1 justify-content-center mb-md-0">
-                        <li><a href="#" class="nav-link px-4 link-light font-weight-bold border rounded border-secondary li">Account Settings</a></li>
-                        <li><a href="#" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Profile Details</a></li>
-                        <li><a href="#" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Cart</a></li>
-                        <li><a href="#" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary selected">Manage Wishlist</a></li>
-                        <li><a href="#" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Ordered Items</a></li>
-                        <li><a href="#" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Delete Account</a></li>
+                        <li><a href="index.php" class="nav-link px-4 link-light font-weight-bold border rounded border-secondary li">Account Settings</a></li>
+                        <li><a href="cart.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Cart</a></li>
+                        <li><a href="wishlist.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary selected">Manage Wishlist</a></li>
+                        <li><a href="orders.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Ordered Items</a></li>
+                        <li><a href="delete.php" onclick="return confirm('YOU CANNOT UNDO THIS ACTION, ARE YOU SURE YOU WANT TO PROCEED WITH ACCOUNT DELETION?')" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Delete Account</a></li>
                     </ul>
                 </nav>
             </div>
@@ -125,7 +123,7 @@ echo '<label class="price"><strong>'.$product['price'].' DH</strong></label>';
 echo ' </div>';
 echo '<div class="col-md-2 col-5 my-auto text-end">';
 echo '<div class="remove">';
-echo ' <a href="" class="btn btn-danger btn-sm">';
+echo '<a href="../ProductDetails/addtowishlist.php?product_id='.$product['product_id'].'&header=2" class="btn btn-danger btn-sm">';
 echo '<i class="fa fa-trash"></i> Remove';
 echo '</a>';
 echo' </div> </div> </div> </div>';

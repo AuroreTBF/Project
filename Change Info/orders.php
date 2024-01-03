@@ -8,7 +8,7 @@ if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+    <title>Orders</title>
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <script src="../js/bootstrap.bundle.js"></script>
@@ -58,9 +58,9 @@ $con = cnx_pdo();
                 <nav>
                 <ul class="nav1 justify-content-center mb-md-0">
                         <li><a href="index.php" class="nav-link px-4 link-light font-weight-bold border rounded border-secondary li">Account Settings</a></li>
-                        <li><a href="cart.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary selected">Cart</a></li>
+                        <li><a href="cart.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Cart</a></li>
                         <li><a href="wishlist.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Manage Wishlist</a></li>
-                        <li><a href="orders.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Ordered Items</a></li>
+                        <li><a href="orders.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary selected">Ordered Items</a></li>
                         <li><a href="delete.php" onclick="return confirm('YOU CANNOT UNDO THIS ACTION, ARE YOU SURE YOU WANT TO PROCEED WITH ACCOUNT DELETION?')" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Delete Account</a></li>
                     </ul>
                 </nav>
@@ -78,24 +78,18 @@ $con = cnx_pdo();
                                     <h4>Price</h4>
                                 </div>
                                 <div class="col-md-2">
-                                    <h4>Quantity</h4>
-                                </div>
-                                <div class="col-md-2">
-                                    <h4>Remove</h4>
+                                    <h4>Date Added</h4>
                                 </div>
                             </div>
                         </div>
+<div class="container scroll">
 <?php
 $con = cnx_pdo();
-$total = $con->prepare("SELECT SUM(p.price*s.quantity) as sum FROM products p JOIN shopping_cart sp JOIN cart_items s ON sp.Shopping_cart_id= s.shoppingCartId AND s.product_id = p.product_id WHERE sp.user_id= :user_id;");
-$total->bindValue(":user_id",$_SESSION['id']);
-$total->execute();
-$sum = $total ->fetch();
-$cart = $con->prepare("SELECT p.*, c.quantity FROM cart_items c JOIN products p JOIN shopping_cart sp ON c.product_id = p.product_id AND c.shoppingCartId = sp.Shopping_cart_id WHERE sp.user_id = :user_id;");
-$cart->bindValue(":user_id",$_SESSION['id']);
-$cart->execute();
-$shoppingcart = $cart->fetchAll();
-foreach($shoppingcart as $product){
+$order = $con->prepare("SELECT p.* FROM products p JOIN orders o JOIN transactions t JOIN shopping_cart s ON s.Shopping_cart_id = t.shop_id AND t.transaction_id = o.transaction_id AND o.product_id = p.product_id WHERE s.user_id = :user_id");
+$order->bindValue(":user_id",$_SESSION['id']);
+$order->execute();
+$ordereditems = $order->fetchAll();
+foreach($ordereditems as $product){
 echo '<div class="cart-item border m-1" style=" background-color: rgba(0, 0, 0, 0.3);">';
 echo '<div class="row text-light">';
 echo '<div class="col-md-6 my-auto ">';
@@ -110,21 +104,10 @@ echo ' <div class="col-md-2 my-auto">';
 echo '<label class="price"><strong>'.$product['price'].' DH</strong></label>';
 echo ' </div>';
 echo ' <div class="col my-auto">';
-echo '<label class="price"><strong>'.$product['quantity'].'</strong></label>';
-echo ' </div>';
-echo '<div class="col-md-2 col-5 my-auto">';
-echo '<div class="remove">';
-echo '<a href="../ProductDetails/addtocart.php?product_id='.$product['product_id'].'&quantity='.$product['quantity'].'&header=2" class="btn btn-danger btn-sm">';
-echo '<i class="fa fa-trash"></i> Remove';
-echo '</a>';
-echo' </div> </div> </div> </div>';
+echo '<label class="price"><strong>'.$product['date_created'].'</strong></label>';
+echo' </div> </div> </div>';
 }?>
-                    </div>
-<div class="col-md-11 text-light text-center h4">
- <strong>Total: <?= $sum['sum']?> </strong>
-    <div></div>
-        <a href="checkout.php" class="btn btn-danger">Buy Now</a>
-</div>
+                    </div></div>
   </body>
 </html>
 <?php

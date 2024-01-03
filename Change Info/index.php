@@ -8,7 +8,7 @@ if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in</title>
+    <title>Change Details</title>
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <script src="../js/bootstrap.bundle.js"></script>
@@ -62,7 +62,6 @@ if($oldpass === $user['password']){
           </a>
           <ul class="dropdown-menu text-small shadow">
             <li><a class="dropdown-item" href="../Change Info/index.php">Settings</a></li>
-            <li><a class="dropdown-item" href="#">Profile</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="../logout.php">Sign out</a></li>
           </ul>
@@ -77,12 +76,11 @@ if($oldpass === $user['password']){
             <div class="col-md-3" style="margin-top: 100px;"> <!-- Adjust margin-top as needed -->
                 <nav>
                     <ul class="nav1 justify-content-center mb-md-0">
-                        <li><a href="#" class="nav-link px-4 link-light font-weight-bold border rounded border-secondary selected">Account Settings</a></li>
-                        <li><a href="#" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Profile Details</a></li>
-                        <li><a href="#" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Cart</a></li>
-                        <li><a href="#" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Manage Wishlist</a></li>
-                        <li><a href="#" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Ordered Items</a></li>
-                        <li><a href="#" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Delete Account</a></li>
+                        <li><a href="index.php" class="nav-link px-4 link-light font-weight-bold border rounded border-secondary selected">Account Settings</a></li>
+                        <li><a href="cart.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Cart</a></li>
+                        <li><a href="wishlist.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Manage Wishlist</a></li>
+                        <li><a href="orders.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Ordered Items</a></li>
+                        <li><a href="delete.php" onclick="return confirm('YOU CANNOT UNDO THIS ACTION, ARE YOU SURE YOU WANT TO PROCEED WITH ACCOUNT DELETION?')" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Delete Account</a></li>
                     </ul>
                 </nav>
             </div>
@@ -132,6 +130,19 @@ if($oldpass === $user['password']){
         </div>
     </div>
 </div>
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">&copy; 2023 MecAssist, Inc</p>
+  </footer>
+</div>
+
   </body>
 </html>
 <?php

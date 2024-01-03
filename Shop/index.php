@@ -16,7 +16,6 @@ if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER
     <link rel="stylesheet" href="fontawesome/css/solid.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="../js/bootstrap.bundle.js"></script>
-    <script src="app.js"></script>
   </head>
 
 <body>
@@ -24,9 +23,31 @@ if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER
 <?php
 require "../cnx.php";
 $con = cnx_pdo();
-$sql = "SELECT * FROM products";
-$req = $con->query($sql);
+// Default query to fetch all products
+$req = $con->prepare("SELECT * FROM products");
+if (isset($_POST['filter']) && !empty($_POST['search'])) {
+    $category = $_POST['filter'];
+    $search = "%" . $_POST['search'] . "%";
+    $req = $con->prepare("SELECT * FROM products WHERE category_id = :cat AND name LIKE :search");
+    $req->bindValue(':cat', $category);
+    $req->bindValue(':search', $search);
+    echo "haha";
+} else if (!empty($_POST['search'])) {
+    $search = "%" . $_POST['search'] . "%";
+    $req = $con->prepare("SELECT * FROM products WHERE name LIKE :search");
+    $req->bindValue(':search', $search);
+    echo "hehe";
+} else if (isset($_POST['filter'])) {
+    $category = $_POST['filter'];
+    $req = $con->prepare("SELECT * FROM products WHERE category_id = :cat");
+    $req->bindValue(':cat', $category);
+}
+if (isset($_POST['reset'])){
+  $req = $con->prepare("SELECT * FROM products");
+}
+$req->execute();
 $product = $req->fetchAll();
+
 ?>
 <div class="container">
   <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-2 border-bottom">
@@ -51,9 +72,8 @@ $product = $req->fetchAll();
           </a>
           <ul class="dropdown-menu text-small shadow">
             <li><a class="dropdown-item" href="../Change Info/index.php">Settings</a></li>
-            <li><a class="dropdown-item" href="#">Profile</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="../logout.php">Sign out</a></li>
+            <li><a class="dropdown-item" href="../logout.php">Sign out</a></option>
           </ul>
         </div>
   </header>
@@ -64,17 +84,20 @@ $product = $req->fetchAll();
             <!-- Navigation on the left -->
             <div class="col-md-3" style="margin-top: 80px;"> <!-- Adjust margin-top as needed -->
                 <nav>
-                    <ul class="nav1 justify-content-center mb-md-0">
-                        <li><button class="nav-link px-2 link-secondary">Washing</button></li>
-                        <li><button class="nav-link px-2 link-secondary">Correction & Polishing</button></li>
-                        <li><button class="nav-link px-2 link-secondary">Protective Wax</button></li>
-                        <li><button class="nav-link px-2 link-secondary">Rim Tires</button></li>
-                        <li><button class="nav-link px-2 link-secondary">Windows and headlights</button></li>
-                        <li><button class="nav-link px-2 link-secondary">Interior</button></li>
-                        <li><button class="nav-link px-2 link-secondary">Other Surfaces</button></li>
-                        <li><button class="nav-link px-2 link-secondary">Accessories</button></li>
-                        <li><button class="nav-link px-2 link-secondary">Kits</button></li>
-                    </ul>
+                  <form method="POST">
+                    <div class="row h4 ml-2 text-danger"><strong>Filters:</strong></div>
+                    <select name="filter" class="form-select form-select-lg mb-3" size="9">
+                        <option value="1" class="nav-link px-2 link-secondary">Washing</option>
+                        <option value="2" class="nav-link px-2 link-secondary">Correction & Polishing</option>
+                        <option value="3" class="nav-link px-2 link-secondary">Protective Wax</option>
+                        <option value="4" class="nav-link px-2 link-secondary">Rim Tires</option>
+                        <option value="5" class="nav-link px-2 link-secondary">Windows and headlights</option>
+                        <option value="6" class="nav-link px-2 link-secondary">Interior</option>
+                        <option value="7" class="nav-link px-2 link-secondary">Other Surfaces</option>
+                        <option value="8" class="nav-link px-2 link-secondary">Accessories</option>
+                        <option value="9" class="nav-link px-2 link-secondary">Kits</option>
+                    </select>
+
                 </nav>
             </div>
             <!-- Form on the right -->
@@ -93,9 +116,13 @@ $product = $req->fetchAll();
     </div>
     <div class="container">
     <div class="row">
-        <div class="col">
-            <input type="text" id="rech" class="form-control mt-3 mb-3 h3" placeholder="Search for Product" >
-        </div>
+      <div class="col-9">
+            <input type="text" name="search" id="rech" class="form-control mt-3 mb-3" placeholder="Search for Product"></div>
+            <div class="col-1">
+            <button name="submit" class="btn btn-danger mx-2 mb-3 mt-3">Search</button></div>
+            <div class="col-2">
+            <button name="reset" class="btn btn-danger mb-3 mt-3">Reset Search</button></div>
+            </form>
     </div>
 
     <div class="row" id="pic"> 
@@ -126,14 +153,39 @@ for ($i=0;$i<5;$i++){
  echo '<p class="card-text text-danger">'.$prod['price'].' DH</p>';
  echo $z;
  echo '</div>';
- echo'<div class="card-footer">';
- echo'<button class="button-hover addcart button"><span>Add to cart</span><i class="fa fa-shopping-cart"></i></button>';
- echo'<a href="../ProductDetails/product.php?product_id='.$prod['product_id'].']"><button class="button-hover details button"><span>Details</span><i class="bx bx-link-external"></i></button></a>';
+ echo'<div class="card-footer">'; 
+ echo'<a href="../ProductDetails/addtocart.php?product_id='.$prod['product_id'].'&quantity=1&header=3"><button class="button-hover addcart button"><span>';
+ $req = $con->prepare("SELECT * FROM cart_items ci JOIN shopping_cart sc ON ci.shoppingCartId = sc.Shopping_cart_id WHERE sc.user_id = :id AND ci.product_id = :pid;");
+ $req->bindValue(":id",$_SESSION['id']);
+ $req->bindValue(":pid",$prod['product_id']);
+ $req->execute();
+ $user= $req->fetch();
+ $text ='';
+ if ($user!=null){
+   $text='Added';
+ }else{
+   $text='Add to cart';
+ }
+ echo $text;
+ echo'</span><i class="fa fa-shopping-cart"></i></button></a>';
+ echo'<a href="../ProductDetails/product.php?product_id='.$prod['product_id'].'"><button class="button-hover details button"><span>Details</span><i class="bx bx-link-external"></i></button></a>';
  echo'</div>';
  echo'</div>';
 }
 ?>
     </div></div>
+  <div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">&copy; 2023 MecAssist, Inc</p>
+  </footer>
+</div>
 </body>
 </html>
 <?php

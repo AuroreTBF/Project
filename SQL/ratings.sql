@@ -1,3 +1,21 @@
+CREATE TABLE ratings (
+    id INT(80) AUTO_INCREMENT PRIMARY KEY,
+    product_id INT(80),
+    user_id INT(80),
+    rating FLOAT,
+    title VARCHAR(50),
+    description VARCHAR(255),
+    date_created DATE
+);
+
+
+CREATE TABLE likes (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    review_id INT(11),
+    user_id INT(11),
+    isLike BOOLEAN
+);
+
 INSERT INTO ratings (id, product_id, user_id, rating, title, description,date_created, helpful, not_helpful)
 VALUES 
     (NULL,1, 1, 4, 'Great product', 'Really satisfied with the performance.',CURRENT_DATE, 15, 2),
@@ -11,7 +29,7 @@ VALUES
     (NULL,9, 9, 4, 'Good brake pads', 'Sturdy and durable for heavy braking.',CURRENT_DATE, 14, 2),
     (NULL,10, 10, 5, 'Tuning chip works wonders', 'Significant boost in horsepower.',CURRENT_DATE, 22, 1);
 
-INSERT INTO likes_dislikes (review_id, user_id, isLike)
+INSERT INTO likes (review_id, user_id, isLike)
 VALUES 
     (1, 1, 1),  -- User 1 likes Review 1
     (1, 2, 0),  -- User 2 dislikes Review 1
@@ -33,3 +51,20 @@ VALUES
     (9, 8, 1),  -- User 8 likes Review 9
     (10, 9, 0), -- User 9 dislikes Review 10
     (10, 10, 1),-- User 10 likes Review 10
+
+ALTER TABLE ratings
+ADD CONSTRAINT prod
+FOREIGN KEY (product_id) REFERENCES products(product_id);
+
+ALTER TABLE ratings
+ADD CONSTRAINT users
+FOREIGN KEY (user_id) REFERENCES users(id);
+
+ALTER TABLE likes
+ADD CONSTRAINT revs
+FOREIGN KEY (review_id) REFERENCES ratings(id);
+
+ALTER TABLE likes
+ADD CONSTRAINT user1
+FOREIGN KEY (user_id) REFERENCES users(id);
+

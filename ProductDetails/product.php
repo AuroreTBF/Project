@@ -24,12 +24,8 @@ $review=$ratings->fetchAll();
     <title>Shop</title>
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
-    <link rel="stylesheet" href="fontawesome/css/brands.css">
-    <link rel="stylesheet" href="fontawesome/css/solid.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="../js/bootstrap.bundle.js"></script>
-    <script src="app.js"></script>
   </head>
 <body>
 <!--Header -->
@@ -111,7 +107,7 @@ $avg = $averageRatingQuery->fetch();
 $x =$avg['avg_rating'];
 $z ="";
 for ($i=0;$i<5;$i++){
-    if($x==0.5){
+    if($x<1 && $x>0){
         $z=$z.'<i class="bx bxs-star-half"></i>';
     }
     else if($x>=1){
@@ -130,7 +126,6 @@ echo $z;
 echo "(<span>".$count['total_ratings']."</span>)";
       ?>
        
-      
       <div class="row-ml-6 ">
         <div class="col text-danger">
        <strong><?=$product['price']. " DH"?></strong>
@@ -145,8 +140,36 @@ echo "(<span>".$count['total_ratings']."</span>)";
             <input type='text' style="width:250px;" size='3' name='item' class="btn btn-light" value='<?= $value; ?>'/>
             <button name='incqty' class="btn btn-danger">+</button>
           </div>
-        <span style="margin-left: 40px;"><button class="btn btn-danger" name="addtocart">Add to Cart</button></span>
-        <span style="margin-left: 40px;"><button id="heart"class="btn btn-outline-danger" name="wishlist"><i class='bx bxs-heart'></i></button></span>
+        <span style="margin-left: 40px;"><a href="addtocart.php?product_id=<?= $_GET['product_id']."&quantity=".$value?>&header=1" class="btn
+<?php
+$style2="";
+$req2 = $con->prepare("SELECT * FROM cart_items ci JOIN shopping_cart sc ON ci.shoppingCartId = sc.Shopping_cart_id WHERE sc.user_id = :id AND ci.product_id = :pid;");
+$req2->bindValue(":id",$_SESSION['id']);
+$req2->bindValue(":pid",$_GET['product_id']);
+$req2->execute();
+$user2= $req2->fetch();
+if ($user2!=null){
+  $style2='btn-danger">Added';
+}else{
+  $style2='btn-outline-danger">Add to cart';
+}
+echo $style2
+?>
+</a>    </span> <span style="margin-left: 40px;"><a href="addtowishlist.php?product_id=<?=$_GET['product_id']?>&header=1" class="btn 
+<?php
+$style = "";
+$req = $con->prepare("SELECT * FROM wishlist WHERE user_id = :id AND product_id = :pid");
+$req->bindValue(":id",$_SESSION['id']);
+$req->bindValue(":pid",$_GET['product_id']);
+$req->execute();
+$user= $req->fetch();
+if ($user!=null){
+  $style="btn-danger";
+}else{
+  $style="btn-outline-danger";
+}
+echo $style;
+?>"><i class='bx bxs-heart'></i></a></span>
         <div class="row">
           <div class="col mx-auto mt-4">
         <button class="btn btn-danger" style="height: 50px; width: 400px;">Compare Product To Another</button>
