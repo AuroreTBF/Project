@@ -21,7 +21,7 @@ if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER
 <body>
   <?php
   // Include the database configuration file 
-  require "../cnx.php";
+  require "cnx.php";
   $con = cnx_pdo();
   if ($_SERVER['REQUEST_METHOD'] == 'POST'){
   $target_dir = "../Shop/Images/";
