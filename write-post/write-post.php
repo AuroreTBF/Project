@@ -165,6 +165,7 @@ if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER
   </footer>
 </div>
 </html>
+<?php
 }else{
   header("Location:../LogIn/index.php");
   exit;
