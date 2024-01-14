@@ -1,0 +1,182 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.faq-11-Keq {
+  box-sizing: border-box;
+  padding: 10.2rem 31.2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+.faq-11-Keq .frequently-asked-questions-SzM {
+  margin: 0rem 0rem 1.6rem 0.3rem;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.3330000242;
+  color: #333333;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.faq-11-Keq .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-kVF {
+  margin: 0rem 0rem 4rem 0.1rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #636d79;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.faq-11-Keq .question-SN5 {
+  margin-bottom: 0.8rem;
+  box-sizing: border-box;
+  padding: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #feffff;
+  flex-shrink: 0;
+}
+.faq-11-Keq .question-SN5 .what-services-does-tanahair-offer-PHK {
+  margin: 0rem 42.5rem 0.2rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.375;
+  color: #333333;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.faq-11-Keq .question-SN5 .navigation--J9P {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.faq-11-Keq .question-2r5 {
+  margin-bottom: 0.8rem;
+  box-sizing: border-box;
+  padding: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #feffff;
+  flex-shrink: 0;
+}
+.faq-11-Keq .question-2r5 .why-should-i-choose-a-design-studio-like-tanahair-over-full-service-agency-ach {
+  margin: 0rem 11.6rem 0.2rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.375;
+  color: #333333;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.faq-11-Keq .question-2r5 .navigation--GVX {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.faq-11-Keq .question-cJV {
+  margin-bottom: 0.8rem;
+  box-sizing: border-box;
+  padding: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #feffff;
+  flex-shrink: 0;
+}
+.faq-11-Keq .question-cJV .how-does-tanahair-create-website-content-without-knowing-our-business-plan-kvV {
+  margin: 0rem 8.8rem 0.2rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.375;
+  color: #333333;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.faq-11-Keq .question-cJV .navigation--4RP {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.faq-11-Keq .question-15j {
+  margin-bottom: 0.8rem;
+  box-sizing: border-box;
+  padding: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #feffff;
+  flex-shrink: 0;
+}
+.faq-11-Keq .question-15j .what-will-be-delivered-and-when-YLZ {
+  margin: 0rem 42.2rem 0.2rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.375;
+  color: #333333;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.faq-11-Keq .question-15j .navigation--4Zo {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.faq-11-Keq .question-bpd {
+  box-sizing: border-box;
+  padding: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #feffff;
+  flex-shrink: 0;
+}
+.faq-11-Keq .question-bpd .what-often-will-results-be-reported-xfB {
+  margin: 0rem 42.3rem 0.2rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.375;
+  color: #333333;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.faq-11-Keq .question-bpd .navigation--g5P {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}

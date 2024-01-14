@@ -1,0 +1,322 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.faq-03-35T {
+  box-sizing: border-box;
+  padding: 10.4rem 20.8rem 13.6rem 20.8rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+.faq-03-35T .auto-group-vzrt-kkZ {
+  margin-bottom: 7.2rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-vzrt-kkZ .frequently-asked-questions-6pR {
+  margin-right: 15.5rem;
+  max-width: 41.4rem;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.3330000242;
+  color: #333333;
+  font-family: Raleway, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-vzrt-kkZ .category-1Rb {
+  margin-top: 8.8rem;
+  display: flex;
+  column-gap: 4rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-vzrt-kkZ .category-1Rb .general-9Xo {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #636d79;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-vzrt-kkZ .category-1Rb .payments-6C9 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #3a86ff;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-vzrt-kkZ .category-1Rb .services-dxm {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #636d79;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-vzrt-kkZ .category-1Rb .refund-Ph3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #636d79;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-vzrt-kkZ .category-1Rb .contact-Y49 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #636d79;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j {
+  width: 100%;
+  height: 36.8rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-yv9x-Rtd {
+  margin-right: 1.6rem;
+  width: 50.4rem;
+  row-gap: 1.6rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-yv9x-Rtd .faq-01-NJ5 {
+  box-sizing: border-box;
+  padding: 1.6rem 2rem 4rem 1.6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #feffff;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-yv9x-Rtd .faq-01-NJ5 .auto-group-3qgv-JBj {
+  margin: 0rem 0.129rem 2.4rem 0rem;
+  width: calc(100% - 0.1293rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-yv9x-Rtd .faq-01-NJ5 .auto-group-3qgv-JBj .what-services-does-tanahair-offer-pQy {
+  margin-right: 19.7293rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #636d79;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-yv9x-Rtd .faq-01-NJ5 .auto-group-3qgv-JBj .collapse-item-9CM {
+  margin-bottom: 0rem;
+  width: 1.3414rem;
+  height: 1.3414rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-yv9x-Rtd .faq-01-NJ5 .tanahair-offers-a-service-for-creating-a-website-design-illustration-icon-set-website-development-animation-and-digital-marketing-su3 {
+  max-width: 46.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #a2a9b0;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-yv9x-Rtd .faq-03-wtu {
+  box-sizing: border-box;
+  padding: 1.6rem 2rem 1.6rem 1.6rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #feffff;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-yv9x-Rtd .faq-03-wtu .how-does-tanahair-create-website-content-without-knowing-our-business-plan-grV {
+  margin-right: 8.8rem;
+  max-width: 36.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #636d79;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-yv9x-Rtd .faq-03-wtu .expand-item-zsB {
+  margin-bottom: 2.4rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-yv9x-Rtd .faq-05-KPf {
+  box-sizing: border-box;
+  padding: 1.6rem 2rem 1.6rem 1.6rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #feffff;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-yv9x-Rtd .faq-05-KPf .what-often-will-results-be-reported-egq {
+  margin-right: 19.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #636d79;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-yv9x-Rtd .faq-05-KPf .expand-item-n2M {
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-27uu-VxM {
+  width: 50.4rem;
+  height: 100%;
+  row-gap: 1.6rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-27uu-VxM .faq-02-E9F {
+  box-sizing: border-box;
+  padding: 1.6rem 2.129rem 1.6rem 1.6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #feffff;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-27uu-VxM .faq-02-E9F .auto-group-g265-AYh {
+  margin-bottom: 2.4rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-27uu-VxM .faq-02-E9F .auto-group-g265-AYh .why-should-i-choose-a-design-studio-like-tanahair-over-full-service-agency-vGy {
+  margin-right: 9.4293rem;
+  max-width: 35.9rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #636d79;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-27uu-VxM .faq-02-E9F .auto-group-g265-AYh .collapse-item-cQh {
+  margin-top: 0.5293rem;
+  width: 1.3414rem;
+  height: 1.3414rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-27uu-VxM .faq-02-E9F .because-tanahair-provides-the-best-service-to-customers-and-provides-flexibility-to-solve-problems-with-our-experts-so-that-customers-get-satisfaction-and-we-provide-service-very-quickly-according-to-the-price-we-offer-wSy {
+  margin-right: 1.6707rem;
+  max-width: 45rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #a2a9b0;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-27uu-VxM .faq-04-Aad {
+  box-sizing: border-box;
+  padding: 1.6rem 2rem 1.6rem 1.6rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #feffff;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-27uu-VxM .faq-04-Aad .what-will-be-delivered-and-when-uHK {
+  margin-right: 20.3rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #636d79;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-27uu-VxM .faq-04-Aad .expand-item-dDK {
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-27uu-VxM .faq-06-Mf7 {
+  box-sizing: border-box;
+  padding: 1.6rem 2rem 1.6rem 1.6rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #feffff;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-27uu-VxM .faq-06-Mf7 .how-quickly-will-i-start-seeing-result-after-working-with-tanahair-JKT {
+  margin-right: 9.4rem;
+  max-width: 35.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #636d79;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.faq-03-35T .auto-group-rdw1-H1j .auto-group-27uu-VxM .faq-06-Mf7 .expand-item-DBX {
+  margin-bottom: 2.4rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}

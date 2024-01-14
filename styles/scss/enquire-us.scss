@@ -1,0 +1,102 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 25rem;
+}.enquire-us-R8V {
+  align-items: center;
+  display: flex;
+  border: dashed 0.1rem #7b61ff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 2rem;
+
+  .property-1default-8Ho {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 8rem;
+    cursor: pointer;
+    position: relative;
+    flex-shrink: 0;
+
+    .rectangle-53-Tay {
+      width: 21rem;
+      height: 5.5rem;
+      top: 1.3rem;
+      border: solid 0.2rem #e94343;
+      box-sizing: border-box;
+      background-color: #f5f5f5;
+      border-radius: 1rem;
+      position: absolute;
+      left: 0;
+    }
+    .enquire-us-xXj {
+      font-size: 1.8rem;
+      height: 8rem;
+      top: 0;
+      align-items: center;
+      position: absolute;
+      line-height: 4.4444444444;
+      letter-spacing: 0.18rem;
+      font-family: Roboto, 'Source Sans Pro';
+      left: 5.2rem;
+      justify-content: center;
+      color: #1f1f1f;
+      white-space: nowrap;
+      width: 10.5rem;
+      display: flex;
+      font-weight: 500;
+    }
+  }
+  .property-1variant2-SSu {
+    position: relative;
+    flex-shrink: 0;
+    width: 100%;
+    height: 8rem;
+
+    .rectangle-53-b4u {
+      background-color: #e94343;
+      position: absolute;
+      box-sizing: border-box;
+      left: 0;
+      top: 1.3rem;
+      border: solid 0.2rem #e94343;
+      box-shadow: 0 0.4rem 2.2rem rgba(0, 0, 0, 0.200000003);
+      border-radius: 1rem;
+      width: 21rem;
+      height: 5.5rem;
+    }
+    .enquire-us-HTX {
+      justify-content: center;
+      font-weight: 500;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      height: 8rem;
+      letter-spacing: 0.18rem;
+      font-family: Roboto, 'Source Sans Pro';
+      white-space: nowrap;
+      width: 10.5rem;
+      left: 5.2rem;
+      color: #1f1f1f;
+      top: 0;
+      font-size: 1.8rem;
+      line-height: 4.4444444444;
+    }
+  }
+}

@@ -1,0 +1,99 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 25rem;
+}.enquire-us-R8V {
+  box-sizing: border-box;
+  padding: 2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: dashed 0.1rem #7b61ff;
+  border-radius: 0.5rem;
+}
+.enquire-us-R8V .property-1default-8Ho {
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.enquire-us-R8V .property-1default-8Ho .rectangle-53-Tay {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.enquire-us-R8V .property-1default-8Ho .enquire-us-xXj {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.enquire-us-R8V .property-1variant2-SSu {
+  width: 100%;
+  height: 8rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.enquire-us-R8V .property-1variant2-SSu .rectangle-53-b4u {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 2.2rem rgba(0, 0, 0, 0.200000003);
+  background-color: #e94343;
+  border-radius: 1rem;
+}
+.enquire-us-R8V .property-1variant2-SSu .enquire-us-HTX {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}

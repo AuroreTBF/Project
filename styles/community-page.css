@@ -1,0 +1,1078 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144.4rem;
+}.community-page-aAm {
+  width: 100%;
+  height: 139rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.community-page-aAm .header-hWH {
+  width: 117rem;
+  height: 3.8rem;
+  position: absolute;
+  left: 13.5rem;
+  top: 2.7rem;
+  display: flex;
+  align-items: center;
+}
+.community-page-aAm .header-hWH .frame-556-d93 {
+  margin: 0.7rem 16.1rem 0.6rem 0rem;
+  height: calc(100% - 1.3rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.community-page-aAm .header-hWH .frame-556-d93 .logo-Z2h {
+  margin-right: 14.7rem;
+  width: 13.1rem;
+  height: 2.4rem;
+  cursor: pointer;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.072rem;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .header-hWH .frame-556-d93 .frame-554-pjK {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.community-page-aAm .header-hWH .frame-556-d93 .frame-554-pjK .header-aiV {
+  margin-right: 3.4rem;
+  width: 4.8rem;
+  height: 2.4rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .header-hWH .frame-556-d93 .frame-554-pjK .header-5QM {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.community-page-aAm .header-hWH .frame-556-d93 .frame-554-pjK .header-5QM .contact-E2M {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .header-hWH .frame-556-d93 .frame-554-pjK .header-5QM .underline-AAu {
+  opacity: 0.5;
+  width: 9.5rem;
+  height: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .header-hWH .frame-556-d93 .frame-554-pjK .auto-group-x45f-Viy {
+  box-sizing: border-box;
+  padding: 0 3.3rem;
+  width: 15.9rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.community-page-aAm .header-hWH .frame-556-d93 .frame-554-pjK .auto-group-x45f-Viy .header-FCM {
+  margin: 0rem 4.5rem 0.1rem 0rem;
+  width: 4.8rem;
+  height: 2.4rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.community-page-aAm .header-hWH .frame-552-Ki1 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .header-hWH .frame-552-Ki1 .search-component-set-goT {
+  margin-right: 2.4rem;
+  box-sizing: border-box;
+  padding: 0.7rem 1.2rem 0.7rem 2rem;
+  width: 24.3rem;
+  height: 100%;
+  background-color: #f5f5f5;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.community-page-aAm .header-hWH .frame-552-Ki1 .search-component-set-goT .frame-550-CG1 {
+  box-sizing: border-box;
+  padding: 0.3rem 0.4rem 0.3rem 0rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.community-page-aAm .header-hWH .frame-552-Ki1 .search-component-set-goT .frame-550-CG1 .what-are-you-looking-for-Xp5 {
+  margin-right: 3.8rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .header-hWH .frame-552-Ki1 .search-component-set-goT .frame-550-CG1 .component-2-rrM {
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .header-hWH .frame-552-Ki1 .frame-551-zBs {
+  margin: 0.3rem 0;
+  box-sizing: border-box;
+  padding-left: 0.6rem;
+  height: calc(100% - 0.6rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .header-hWH .frame-552-Ki1 .frame-551-zBs .wishlist-Kjw {
+  margin: 0rem 2.2rem 0.017rem 0rem;
+  width: 2rem;
+  height: 1.7834rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .header-hWH .frame-552-Ki1 .frame-551-zBs .cart1-with-buy-f37 {
+  margin-right: 1.6rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .header-hWH .frame-552-Ki1 .frame-551-zBs .user-Pjo {
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 4.7rem;
+  flex-shrink: 0;
+}
+.community-page-aAm .line-3-in5 {
+  width: 144rem;
+  height: 0.05rem;
+  position: absolute;
+  left: 0;
+  top: 8.1rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.community-page-aAm .roadmap-fBX {
+  width: 32.7rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 13.5rem;
+  top: 16.1rem;
+  display: flex;
+  align-items: center;
+}
+.community-page-aAm .roadmap-fBX .home-bay {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .roadmap-fBX .auto-group-cjah-jx5 {
+  box-sizing: border-box;
+  padding: 0rem 17.2rem 0rem 1.2rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.community-page-aAm .roadmap-fBX .auto-group-cjah-jx5 .line-13-g6d {
+  margin: 0.463rem 1.2rem 0rem 0rem;
+  width: 0.6rem;
+  height: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  flex-shrink: 0;
+}
+.community-page-aAm .roadmap-fBX .auto-group-cjah-jx5 .community-C4y {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .button-uk5 {
+  width: 19.7rem;
+  height: 5.6rem;
+  cursor: pointer;
+  position: absolute;
+  left: 14.4rem;
+  top: 121.1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #f9f9f9;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #db4444;
+  border-radius: 0.4rem;
+}
+.community-page-aAm .frame-923-BxV {
+  width: 8.2rem;
+  height: 4rem;
+  position: absolute;
+  left: 14.5rem;
+  top: 27.8rem;
+  display: flex;
+  align-items: center;
+}
+.community-page-aAm .frame-923-BxV .rectangle-17-vv5 {
+  margin-right: 1.8rem;
+  width: 2rem;
+  height: 4rem;
+  background-color: #db4444;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.community-page-aAm .frame-923-BxV .posts-UAu {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #db4444;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 {
+  width: 103.4rem;
+  height: 56rem;
+  position: absolute;
+  left: 16rem;
+  top: 34.1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw {
+  margin-bottom: 5.8rem;
+  box-sizing: border-box;
+  padding: 2.5rem 3rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  row-gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #eaeaea;
+  box-shadow: 0.2rem 0.1rem 0.5rem rgba(0, 0, 0, 0.150000006);
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .head-sTw {
+  margin-right: 30.9rem;
+  width: calc(100% - 30.9rem);
+  height: 4rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .head-sTw .image-75-cRX {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .head-sTw .auto-group-n2id-kXj {
+  box-sizing: border-box;
+  padding: 0.35rem 1.1rem 0.4rem 1.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .head-sTw .auto-group-n2id-kXj .group-5-tP3 {
+  margin-right: 49rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .head-sTw .auto-group-n2id-kXj .group-5-tP3 .nikcname-e7K {
+  margin-bottom: 0.45rem;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.065rem;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .head-sTw .auto-group-n2id-kXj .group-5-tP3 .time-9pm {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.05rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .head-sTw .auto-group-n2id-kXj .feather-more-vertical-gZo {
+  margin-top: 0.05rem;
+  width: 0.2rem;
+  height: 1.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .textblock-1MB {
+  width: 100%;
+  height: 7.6rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .textblock-1MB .why-do-car-companies-develop-cars-only-to-not-advertise-them-at-all-and-fail-AE5 {
+  margin-bottom: 0.95rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  letter-spacing: 0.07rem;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .textblock-1MB .two-that-come-to-my-mind-are-the-genesis-coupe-and-the-camaro-i-was-looking-on-youtube-at-past-commercials-of-the-camaro-from-a-decade-ago-and-chevy-had-some-pretty-wild-and-awesome-commercials-for-it-rMo {
+  max-width: 97.5rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7857142857;
+  letter-spacing: 0.07rem;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .submenu-6G9 {
+  margin-right: 30.9rem;
+  box-sizing: border-box;
+  padding-top: 0.05rem;
+  width: calc(100% - 30.9rem);
+  height: 2.2rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .submenu-6G9 .tag-ogM {
+  margin-right: 44.6rem;
+  width: 7.4rem;
+  height: 2.2rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.05rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaeaea;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .submenu-6G9 .activity-V3P {
+  margin: 0.25rem 0rem 0.4rem 0rem;
+  width: 14.5rem;
+  height: calc(100% - 0.65rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  column-gap: 1.4rem;
+  align-items: center;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .submenu-6G9 .activity-V3P .group-2-CTb {
+  box-sizing: border-box;
+  padding-left: 0.0625rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .submenu-6G9 .activity-V3P .group-2-CTb .eye-kV7 {
+  margin-right: 0.3625rem;
+  width: 1.375rem;
+  height: 1rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .submenu-6G9 .activity-V3P .group-2-CTb .item-125-Hzq {
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.039rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .submenu-6G9 .activity-V3P .group-4-R5T {
+  box-sizing: border-box;
+  padding-left: 0.1875rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .submenu-6G9 .activity-V3P .group-4-R5T .message-square-mf7 {
+  margin-right: 0.4875rem;
+  width: 1.125rem;
+  height: 1.125rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .submenu-6G9 .activity-V3P .group-4-R5T .item-15-WMo {
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.039rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .submenu-6G9 .activity-V3P .group-3-36q {
+  box-sizing: border-box;
+  padding-left: 0.3125rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .submenu-6G9 .activity-V3P .group-3-36q .arrow-up-Neu {
+  margin-right: 0.6125rem;
+  width: 0.875rem;
+  height: 0.875rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-9Xw .submenu-6G9 .activity-V3P .group-3-36q .item-155-hx5 {
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.039rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF {
+  box-sizing: border-box;
+  padding: 2.5rem 3rem 1.6rem 3rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #eaeaea;
+  box-shadow: 0.2rem 0.1rem 0.5rem rgba(0, 0, 0, 0.150000006);
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .head-U5f {
+  margin: 0rem 30.9rem 1.45rem 0rem;
+  width: calc(100% - 30.9rem);
+  height: 4rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .head-U5f .image-75-bRB {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .head-U5f .auto-group-tsft-YLR {
+  box-sizing: border-box;
+  padding: 0.35rem 1.1rem 0.4rem 1.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .head-U5f .auto-group-tsft-YLR .group-5-5bF {
+  margin-right: 49rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .head-U5f .auto-group-tsft-YLR .group-5-5bF .nikcname-e8Z {
+  margin-bottom: 0.45rem;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.065rem;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .head-U5f .auto-group-tsft-YLR .group-5-5bF .time-mDB {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.05rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .head-U5f .auto-group-tsft-YLR .feather-more-vertical-6mF {
+  margin-top: 0.05rem;
+  width: 0.2rem;
+  height: 1.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .textblock-phF {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .textblock-phF .help-me-find-the-kit-car-that-my-father-owned-in-the-70s-B21 {
+  margin-bottom: 0.95rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  letter-spacing: 0.07rem;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .textblock-phF .i-just-recently-bought-a-2009-ralliart-i-would-appreciate-any-and-all-advice-about-ralliarts-the-does-and-the-do-nots-also-i-was-confused-when-i-found-this-black-plastic-cap-that-went-over-my-ignition-from-what-i-was-told-from-the-car-auction-the-car-come-with-an-optional-keyless-start-which-i-would-love-however-when-i-try-turning-the-cap-a-prompt-comes-on-my-dash-saying-that-the-key-is-missing-can-anyone-explain-this-to-me-could-my-key-fob-be-dead-and-that-is-why-it-wont-start-up-do-i-need-to-place-my-physical-key-inside-the-ignition-then-place-this-cap-over-it-not-much-of-a-keyless-start-i-would-think-any-advice-about-this-or-ralliart-in-generally-is-very-much-appreciated-thanks-all--GZF {
+  max-width: 97.4rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7857142857;
+  letter-spacing: 0.07rem;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .submenu-UYq {
+  box-sizing: border-box;
+  padding-top: 0.05rem;
+  height: 2.2rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .submenu-UYq .tag-1of {
+  margin-right: 1.1rem;
+  width: 12.3rem;
+  height: 2.2rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.05rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaeaea;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .submenu-UYq .tag-guo {
+  margin: 0.05rem 27.4rem 0rem 0rem;
+  width: 11.2rem;
+  height: 2.2rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.05rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaeaea;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .submenu-UYq .activity-mAZ {
+  margin: 0.25rem 0rem 0.4rem 0rem;
+  width: 14.5rem;
+  height: calc(100% - 0.65rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  column-gap: 1.4rem;
+  align-items: center;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .submenu-UYq .activity-mAZ .group-2-Gd7 {
+  box-sizing: border-box;
+  padding-left: 0.0625rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .submenu-UYq .activity-mAZ .group-2-Gd7 .eye-dTf {
+  margin-right: 0.3625rem;
+  width: 1.375rem;
+  height: 1rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .submenu-UYq .activity-mAZ .group-2-Gd7 .item-125-yXX {
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.039rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .submenu-UYq .activity-mAZ .group-4-6c9 {
+  box-sizing: border-box;
+  padding-left: 0.1875rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .submenu-UYq .activity-mAZ .group-4-6c9 .message-square-f9T {
+  margin-right: 0.4875rem;
+  width: 1.125rem;
+  height: 1.125rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .submenu-UYq .activity-mAZ .group-4-6c9 .item-15-zxR {
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.039rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .submenu-UYq .activity-mAZ .group-3-8Hw {
+  box-sizing: border-box;
+  padding-left: 0.3125rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .submenu-UYq .activity-mAZ .group-3-8Hw .arrow-up-tY1 {
+  margin-right: 0.6125rem;
+  width: 0.875rem;
+  height: 0.875rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .posts-cH7 .post-teaser-LVF .submenu-UYq .activity-mAZ .group-3-8Hw .item-155-Ebs {
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.039rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV {
+  box-sizing: border-box;
+  padding: 1.1rem 1.9rem 2.1rem 3rem;
+  width: 103.4rem;
+  height: 18.9rem;
+  position: absolute;
+  left: 16rem;
+  top: 96.1rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #eaeaea;
+  box-shadow: 0.2rem 0.1rem 0.5rem rgba(0, 0, 0, 0.150000006);
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 {
+  margin: 1.4rem 5.7rem 0rem 0rem;
+  width: 66.5rem;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .head-v7K {
+  margin-bottom: 1.45rem;
+  width: 100%;
+  height: 4rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .head-v7K .image-75-4jK {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .head-v7K .auto-group-mzu1-1eZ {
+  box-sizing: border-box;
+  padding: 0.35rem 1.1rem 0.4rem 1.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .head-v7K .auto-group-mzu1-1eZ .group-5-YuP {
+  margin-right: 49rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .head-v7K .auto-group-mzu1-1eZ .group-5-YuP .nikcname-uzq {
+  margin-bottom: 0.45rem;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.065rem;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .head-v7K .auto-group-mzu1-1eZ .group-5-YuP .time-EXK {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.05rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .head-v7K .auto-group-mzu1-1eZ .feather-more-vertical-NNd {
+  margin-top: 0.05rem;
+  width: 0.2rem;
+  height: 1.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .textblock-hfo {
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .textblock-hfo .how-to-install-a-battery-in-your-vehicle-4FT {
+  margin-bottom: 0.95rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  letter-spacing: 0.07rem;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .textblock-hfo .click-this-video-here-to-see-how-to-install-a-battery-mff {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7857142857;
+  letter-spacing: 0.07rem;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .textblock-hfo .click-this-video-here-to-see-how-to-install-a-battery-mff .click-this-video-here-to-see-how-to-install-a-battery-mff-sub-0 {
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .textblock-hfo .click-this-video-here-to-see-how-to-install-a-battery-mff .click-this-video-here-to-see-how-to-install-a-battery-mff-sub-1 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7857142857;
+  letter-spacing: 0.07rem;
+  text-decoration-line: underline;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .textblock-hfo .click-this-video-here-to-see-how-to-install-a-battery-mff .click-this-video-here-to-see-how-to-install-a-battery-mff-sub-2 {
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .submenu-qJ9 {
+  width: 100%;
+  height: 2.2rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .submenu-qJ9 .tag-M1b {
+  margin: 0.05rem 1.6rem 0rem 0rem;
+  width: 4.8rem;
+  height: calc(100% - 0.05rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.05rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaeaea;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .submenu-qJ9 .tag-nMo {
+  margin-right: 40.8rem;
+  width: 4.8rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.05rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaeaea;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .submenu-qJ9 .activity-GXs {
+  margin: 0.3rem 0rem 0.4rem 0rem;
+  width: 14.5rem;
+  height: calc(100% - 0.7rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  column-gap: 1.4rem;
+  align-items: center;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .submenu-qJ9 .activity-GXs .group-2-BPw {
+  box-sizing: border-box;
+  padding-left: 0.0625rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .submenu-qJ9 .activity-GXs .group-2-BPw .eye-LGq {
+  margin-right: 0.3625rem;
+  width: 1.375rem;
+  height: 1rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .submenu-qJ9 .activity-GXs .group-2-BPw .item-125-GwB {
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.039rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .submenu-qJ9 .activity-GXs .group-4-QGh {
+  box-sizing: border-box;
+  padding-left: 0.1875rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .submenu-qJ9 .activity-GXs .group-4-QGh .message-square-Mhj {
+  margin-right: 0.4875rem;
+  width: 1.125rem;
+  height: 1.125rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .submenu-qJ9 .activity-GXs .group-4-QGh .item-15-uDT {
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.039rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .submenu-qJ9 .activity-GXs .group-3-Rhb {
+  box-sizing: border-box;
+  padding-left: 0.3125rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .submenu-qJ9 .activity-GXs .group-3-Rhb .arrow-up-yz1 {
+  margin-right: 0.6125rem;
+  width: 0.875rem;
+  height: 0.875rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auto-group-3jr5-nG1 .submenu-qJ9 .activity-GXs .group-3-Rhb .item-155-igh {
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  letter-spacing: 0.039rem;
+  color: #808080;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.community-page-aAm .post-teaser-5cV .auhfi1zwbco-hd-1-E9F {
+  margin-bottom: 1.7rem;
+  width: 26.3rem;
+  height: 14rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}

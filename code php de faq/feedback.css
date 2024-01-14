@@ -1,0 +1,404 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.feedback-Frq {
+  box-sizing: border-box;
+  padding: 12rem 11.8rem 24.6rem 18.7rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1b1d;
+}
+.feedback-Frq .users-testimonials-nrm {
+  margin: 0rem 6.9rem 3.1rem 0rem;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.3625;
+  color: #ffffff;
+  font-family: Open Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.feedback-Frq .discover-early-users-feedback-on-mecassit-integration-within-their-workflows-6Mf {
+  margin: 0rem 6.9rem 8rem 0rem;
+  max-width: 70.8rem;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.3625;
+  color: #ffffff;
+  font-family: Open Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.feedback-Frq .discover-early-users-feedback-on-mecassit-integration-within-their-workflows-6Mf .discover-early-users-feedback-on-mecassit-integration-within-their-workflows-6Mf-sub-0 {
+}
+.feedback-Frq .discover-early-users-feedback-on-mecassit-integration-within-their-workflows-6Mf .discover-early-users-feedback-on-mecassit-integration-within-their-workflows-6Mf-sub-1 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.3625;
+  color: #be5794;
+  font-family: Open Sans, 'Source Sans Pro';
+}
+.feedback-Frq .auto-group-hkwo-hkm {
+  width: 100%;
+  height: 65.7rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r5-eR7 {
+  box-sizing: border-box;
+  padding: 2.159rem 5.833rem 0.767rem 3.33rem;
+  width: 50.4191rem;
+  height: 20.2rem;
+  position: absolute;
+  left: 4.3rem;
+  top: 37.3rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #9ea1a8;
+  border-radius: 1.542rem;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r5-eR7 .auto-group-kpdf-YFb {
+  margin: 0rem 11.631rem 0.077rem 0rem;
+  width: calc(100% - 11.6309rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r5-eR7 .auto-group-kpdf-YFb .ellipse-1-GhP {
+  margin-right: 2.5296rem;
+  width: 6.4758rem;
+  height: 5.3969rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r5-eR7 .auto-group-kpdf-YFb .auto-group-mywz-cFT {
+  width: 20.6196rem;
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r5-eR7 .auto-group-kpdf-YFb .auto-group-mywz-cFT .agnes-remi-m8M {
+  margin-bottom: 0.2527rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1.8504rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #000000;
+  font-family: Open Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r5-eR7 .auto-group-kpdf-YFb .auto-group-mywz-cFT .back-end-developer-at-mydodow-tCy {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2336rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #b9b9b9;
+  font-family: Open Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r5-eR7 .mecassist-is-more-than-just-a-platform-its-a-community-the-combination-of-expert-resources-user-reviews-and-interactive-forums-creates-a-supportive-environment-for-car-owners-at-all-levels-the-feature-name-is-a-clever-way-to-share-knowledge-and-learn-from-each-other-mecassist-is-on-the-right-track-to-revolutionizing-car-care-im-excited-to-see-whats-next-12h {
+  margin-left: 7.956rem;
+  max-width: 33.3rem;
+  font-size: 1.2336rem;
+  font-weight: 400;
+  line-height: 1.3625;
+  letter-spacing: 0.0247rem;
+  color: #1a1b1d;
+  font-family: Open Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r4-j77 {
+  box-sizing: border-box;
+  padding: 1.2rem 5.546rem 0.696rem 3.085rem;
+  width: 46.7rem;
+  height: 18.8rem;
+  position: absolute;
+  left: 33.3rem;
+  top: 46.9rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(9.42deg, #e3e4e9 9.12%, rgba(227, 228, 233, 0.7900000215) 67.11%, #e3e4e9 95.43%);
+  border-radius: 1.4351rem;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r4-j77 .auto-group-xq65-Dny {
+  margin: 0rem 9.92rem 0.072rem 0rem;
+  width: calc(100% - 9.9201rem);
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r4-j77 .auto-group-xq65-Dny .ellipse-1-vxH {
+  margin-right: 3.1476rem;
+  width: 5.9982rem;
+  height: 5.0229rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r4-j77 .auto-group-xq65-Dny .auto-group-1kfj-GmF {
+  margin-bottom: 0.7679rem;
+  width: 19.0033rem;
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r4-j77 .auto-group-xq65-Dny .auto-group-1kfj-GmF .roman-atwoods-R8M {
+  margin-bottom: 0.1641rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #000000;
+  font-family: Open Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r4-j77 .auto-group-xq65-Dny .auto-group-1kfj-GmF .back-end-developer-at-mydodow-w6h {
+  width: 100%;
+  text-align: center;
+  font-size: 1.1481rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #b9b9b9;
+  font-family: Open Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r4-j77 .mecassist-is-more-than-just-a-platform-its-a-community-the-combination-of-expert-resources-user-reviews-and-interactive-forums-creates-a-supportive-environment-for-car-owners-at-all-levels-the-virtual-garage-is-a-clever-way-to-share-knowledge-and-learn-from-each-other-mecassist-is-on-the-right-track-to-revolutionizing-car-care-im-excited-to-see-whats-next-fHb {
+  margin-left: 7.3691rem;
+  max-width: 30.7rem;
+  font-size: 1.1481rem;
+  font-weight: 400;
+  line-height: 1.3625;
+  letter-spacing: 0.023rem;
+  color: #1a1b1d;
+  font-family: Open Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r3-Mpd {
+  box-sizing: border-box;
+  padding: 2.779rem 6.065rem 5.476rem 3.435rem;
+  width: 52.0073rem;
+  height: 26rem;
+  position: absolute;
+  left: 0;
+  top: 13.4rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1.6rem 4rem #000000;
+  background: linear-gradient(91.77deg, #f7f6fb 1.11%, #f7f6fb 42.04%, #f7f6fb 70.51%, rgba(247, 246, 251, 0.6000000238) 98.49%);
+  border-radius: 1.626rem;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r3-Mpd .auto-group-yazm-GRo {
+  margin: 0rem 11.801rem 0.099rem 0rem;
+  width: calc(100% - 11.8013rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r3-Mpd .auto-group-yazm-GRo .ellipse-1-oAq {
+  margin-right: 2.6474rem;
+  width: 6.6798rem;
+  height: 6.9466rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r3-Mpd .auto-group-yazm-GRo .auto-group-h8av-9Eh {
+  width: 21.3781rem;
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r3-Mpd .auto-group-yazm-GRo .auto-group-h8av-9Eh .theo-champion-J7b {
+  margin-bottom: 0.3718rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #000000;
+  font-family: Open Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r3-Mpd .auto-group-yazm-GRo .auto-group-h8av-9Eh .back-end-developer-at-mydodow-2JV {
+  width: 100%;
+  text-align: center;
+  font-size: 1.3008rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #b9b9b9;
+  font-family: Open Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.feedback-Frq .auto-group-hkwo-hkm .r3-Mpd .as-a-busy-professional-i-rarely-have-time-to-deal-with-car-troubles-mecassist-has-been-a-lifesaver-the-platforms-accessibility-and-comprehensive-resources-from-mechanic-reviews-to-troubleshooting-guides-have-empowered-me-to-confidently-handle-car-issues-myself-the-mechanic-scorecard-is-especially-helpful-it-gives-me-peace-of-mind-knowing-i-have-access-to-expert-advice-whenever-i-need-it-mecassist-is-a-must-have-for-anyone-who-wants-to-save-time-and-money-on-car-maintenance-YXj {
+  margin-left: 8.2066rem;
+  max-width: 34.3rem;
+  font-size: 0.9756rem;
+  font-weight: 700;
+  line-height: 1.3625;
+  letter-spacing: 0.0195rem;
+  color: #1a1b1d;
+  font-family: Open Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .review-2-AhX {
+  box-sizing: border-box;
+  padding: 1.59rem 6.2rem 1.5rem 3.092rem;
+  width: 55.7rem;
+  height: 21.6rem;
+  position: absolute;
+  left: 39.4rem;
+  top: 0;
+  display: flex;
+  align-items: flex-start;
+  box-shadow: -0.8rem 0.8rem 4rem rgba(0, 0, 0, 0.6999999881);
+  background-color: #ffffff;
+  border-radius: 1.7798rem;
+}
+.feedback-Frq .auto-group-hkwo-hkm .review-2-AhX .ellipse-1-GEm {
+  margin-right: 2.3277rem;
+  width: 7.1798rem;
+  height: 5.9755rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .review-2-AhX .auto-group-rnqx-bnq {
+  margin-top: 0.0079rem;
+  height: calc(100% - 0.0079rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .review-2-AhX .auto-group-rnqx-bnq .auto-group-g8ph-YTB {
+  margin: 0rem 0rem 0.251rem 0.622rem;
+  width: 23.1233rem;
+  height: 5.1506rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .review-2-AhX .auto-group-rnqx-bnq .auto-group-g8ph-YTB .martin-goutry-5CD {
+  width: 16.5rem;
+  height: 3.3rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #000000;
+  font-family: Open Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.feedback-Frq .auto-group-hkwo-hkm .review-2-AhX .auto-group-rnqx-bnq .auto-group-g8ph-YTB .back-end-developer-at-mydodow-C1w {
+  width: 22.7rem;
+  height: 2rem;
+  position: absolute;
+  left: 0.4233rem;
+  top: 3.1506rem;
+  text-align: center;
+  font-size: 1.4239rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #b9b9b9;
+  font-family: Open Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.feedback-Frq .auto-group-hkwo-hkm .review-2-AhX .auto-group-rnqx-bnq .mecassist-feels-like-a-breath-of-fresh-air-for-car-care-the-platforms-intuitive-design-and-user-friendly-features-make-it-easy-to-find-the-information-and-services-i-need-from-finding-a-reliable-mechanic-to-getting-step-by-step-repair-guides-im-particularly-impressed-with-the-instamechanic-its-a-game-changer-for-connects-you-with-nearby-available-mechanics-in-real-time-saving-you-time-and-hassle-when-your-car-needs-immediate-attention-mecassist-is-definitely-a-promising-solution-for-anyone-who-wants-to-take-control-of-their-car-care-VWq {
+  max-width: 36.9rem;
+  font-size: 1.0679rem;
+  font-weight: 700;
+  line-height: 1.3625;
+  letter-spacing: 0.0214rem;
+  color: #1a1b1d;
+  font-family: Open Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .review-1-LZP {
+  box-sizing: border-box;
+  padding: 2.8rem 8.7rem 0.3rem 4.294rem;
+  width: 65rem;
+  height: 26.2rem;
+  position: absolute;
+  left: 48.5rem;
+  top: 21.9rem;
+  display: flex;
+  align-items: flex-start;
+  box-shadow: -0.8rem 4rem 4rem rgba(0, 0, 0, 0.8000000119);
+  background-color: #ffffff;
+  border-radius: 2rem;
+}
+.feedback-Frq .auto-group-hkwo-hkm .review-1-LZP .ellipse-1-2x1 {
+  margin-right: 0.7578rem;
+  width: 8.3486rem;
+  height: 7rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .review-1-LZP .auto-group-qpsd-mub {
+  width: 42.9rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.feedback-Frq .auto-group-hkwo-hkm .review-1-LZP .auto-group-qpsd-mub .agnes-remi-LC1 {
+  margin-bottom: 0.4rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #000000;
+  font-family: Open Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.feedback-Frq .auto-group-hkwo-hkm .review-1-LZP .auto-group-qpsd-mub .auto-group-lmsf-FZs {
+  width: 100%;
+  height: 19.4rem;
+  position: relative;
+}
+.feedback-Frq .auto-group-hkwo-hkm .review-1-LZP .auto-group-qpsd-mub .auto-group-lmsf-FZs .back-end-developer-at-mydodow-c9X {
+  width: 25.5rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 3.6069rem;
+  top: 0;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #b9b9b9;
+  font-family: Open Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.feedback-Frq .auto-group-hkwo-hkm .review-1-LZP .auto-group-qpsd-mub .auto-group-lmsf-FZs .mecassist-is-a-game-changer-for-the-automotive-industry-the-platforms-focus-on-transparency-and-user-empowerment-is-refreshing-the-diy-diagnostic-wizard-is-a-brilliant-way-to-connect-with-reliable-mechanics-and-build-trust-i-can-see-mecassist-becoming-the-go-to-resource-for-car-owners-looking-for-quality-service-and-valuable-information-keep-up-the-excellent-work-hgm {
+  width: 42.9rem;
+  height: 17.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.9rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3625;
+  letter-spacing: 0.032rem;
+  color: #1a1b1d;
+  font-family: Open Sans, 'Source Sans Pro';
+}

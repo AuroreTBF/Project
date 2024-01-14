@@ -1,0 +1,2948 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 172.8rem;
+}.car-repair-guide-WCR {
+  width: 100%;
+  height: 923.1rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.car-repair-guide-WCR .auto-group-ff9t-2Rf {
+  box-sizing: border-box;
+  padding: 32.3rem 14.5rem 5.5rem 14.5rem;
+  width: 172.8rem;
+  height: 111.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.car-repair-guide-WCR .auto-group-ff9t-2Rf .car-repair-at-your-door-step-7T7 {
+  margin-bottom: 5.8rem;
+  text-align: center;
+  font-size: 6.6rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-ff9t-2Rf .select-a-car-Qh7 {
+  margin: 0rem 59.4rem 7.2rem 59.3rem;
+  width: calc(100% - 118.7rem);
+  height: 6.3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 3.3rem;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-ff9t-2Rf .asset-2-1-e5f {
+  width: 143.8rem;
+  height: 46.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-mmah-ZyK {
+  box-sizing: border-box;
+  padding: 10.6rem 14.3rem 10.6rem 14.4rem;
+  width: 172.8rem;
+  height: 71.8rem;
+  position: absolute;
+  left: 0;
+  top: 240.5rem;
+  display: flex;
+  align-items: center;
+  background-color: #f0f2f4;
+}
+.car-repair-guide-WCR .auto-group-mmah-ZyK .component-1-4fB {
+  margin: 13.5rem 1.2rem 14.1rem 0rem;
+  width: 23rem;
+  height: calc(100% - 27.6rem);
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem rgba(170, 170, 170, 0.200000003);
+  box-sizing: border-box;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-mmah-ZyK .auto-group-skb3-7dT {
+  margin: 0rem 1.1rem 14rem 0rem;
+  width: 95.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-mmah-ZyK .auto-group-skb3-7dT .companys-overview-car-services-Exy {
+  margin: 0rem 0rem 7.8rem 1.1rem;
+  text-align: center;
+  font-size: 4.6rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-mmah-ZyK .auto-group-skb3-7dT .auto-group-434m-XhB {
+  width: 100%;
+  height: 23.1rem;
+  display: flex;
+  column-gap: 1.1rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-mmah-ZyK .auto-group-skb3-7dT .auto-group-434m-XhB .auto-group-skjt-4SD {
+  width: 23.1rem;
+  height: 100%;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem rgba(170, 170, 170, 0.200000003);
+  box-sizing: border-box;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-mmah-ZyK .auto-group-skb3-7dT .auto-group-434m-XhB .auto-group-niav-wF7 {
+  box-sizing: border-box;
+  padding: 10.2rem 2.85rem 7.2rem 2.85rem;
+  width: 23.1rem;
+  height: 100%;
+  border: solid 0.1rem rgba(170, 170, 170, 0.200000003);
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-mmah-ZyK .auto-group-skb3-7dT .auto-group-434m-XhB .auto-group-niav-wF7 .car-denting-painting-rN5 {
+  max-width: 17.4rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-mmah-ZyK .auto-group-skb3-7dT .auto-group-434m-XhB .auto-group-pszb-Lo3 {
+  box-sizing: border-box;
+  padding: 10.1rem 4.9rem 7.3rem 4.8rem;
+  width: 23.1rem;
+  height: 100%;
+  border: solid 0.1rem rgba(170, 170, 170, 0.200000003);
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-mmah-ZyK .auto-group-skb3-7dT .auto-group-434m-XhB .auto-group-pszb-Lo3 .car-major-repairs-UeM {
+  max-width: 13.4rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-mmah-ZyK .auto-group-skb3-7dT .auto-group-434m-XhB .auto-group-jqw1-oAq {
+  box-sizing: border-box;
+  padding: 10.2rem 4.15rem 7.2rem 4.05rem;
+  width: 23.1rem;
+  height: 100%;
+  border: solid 0.1rem rgba(170, 170, 170, 0.200000003);
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-mmah-ZyK .auto-group-skb3-7dT .auto-group-434m-XhB .auto-group-jqw1-oAq .car-custom-repairs-X6q {
+  max-width: 14.9rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-mmah-ZyK .auto-group-feyf-2ZP {
+  margin: 13.5rem 0rem 14rem 0rem;
+  width: 23.1rem;
+  height: calc(100% - 27.5rem);
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem rgba(170, 170, 170, 0.200000003);
+  box-sizing: border-box;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP {
+  box-sizing: border-box;
+  padding: 16.4rem 14.3rem 15.5rem 14.4rem;
+  width: 172.8rem;
+  height: 102rem;
+  position: absolute;
+  left: 0;
+  top: 517.1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f2f4;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .our-trademark-xLZ {
+  margin: 0rem 0rem 8.7rem 0.4rem;
+  text-align: center;
+  font-size: 4.6rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-8fdt-rgq {
+  margin-bottom: 1.3rem;
+  width: 100%;
+  height: 33.8rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-8fdt-rgq .group-48-Bz1 {
+  margin-right: 2.1rem;
+  width: 46.4rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-8fdt-rgq .group-48-Bz1 .rectangle-54-jkd {
+  width: 46.4rem;
+  height: 25.6rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-8fdt-rgq .group-48-Bz1 .rectangle-57-srq {
+  width: 26.8rem;
+  height: 27.2rem;
+  position: absolute;
+  left: 10.5rem;
+  top: 6.6rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-8fdt-rgq .group-49-Q65 {
+  margin-right: 2.8rem;
+  width: 46.4rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-8fdt-rgq .group-49-Q65 .rectangle-55-MGD {
+  width: 46.4rem;
+  height: 25.6rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-8fdt-rgq .group-49-Q65 .rectangle-58-VdK {
+  width: 26.8rem;
+  height: 27.2rem;
+  position: absolute;
+  left: 10.1rem;
+  top: 6.6rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-8fdt-rgq .group-50-dUd {
+  width: 46.4rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-8fdt-rgq .group-50-dUd .rectangle-56-ncR {
+  width: 46.4rem;
+  height: 25.6rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-8fdt-rgq .group-50-dUd .rectangle-59-wER {
+  width: 26.8rem;
+  height: 27.2rem;
+  position: absolute;
+  left: 9.7rem;
+  top: 6.6rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-3lkh-rsB {
+  margin: 0rem 4.1rem 0rem 3rem;
+  width: calc(100% - 7.1rem);
+  height: 20.6rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-3lkh-rsB .group-45-mz9 {
+  margin-right: 8.1rem;
+  width: 40.4rem;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-3lkh-rsB .group-45-mz9 .min-car-service-XiR {
+  margin-bottom: 1.1rem;
+  width: 100%;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-3lkh-rsB .group-45-mz9 .experience-quick-service-which-completes-in-just-90-minutes-which-will-help-you-save-your-precious-time-and-efforts-of-visiting-workshops-to-get-your-car-serviced-eo3 {
+  max-width: 40.4rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4444444444;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-3lkh-rsB .group-46-7gd {
+  margin-right: 10.8rem;
+  width: 38.4rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-3lkh-rsB .group-46-7gd .in-house-technicians-sA1 {
+  margin-bottom: 1.1rem;
+  width: 100%;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-3lkh-rsB .group-46-7gd .metre-per-second-recruits-best-in-class-german-car-technicians-with-a-minimum-of-8-years-of-experience-and-train-them-after-enabling-them-with-garage-nations-standards-they-are-assigned-for-services-repairs-zVX {
+  max-width: 38.4rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4444444444;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-3lkh-rsB .group-47-qW9 {
+  width: 39.3rem;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-3lkh-rsB .group-47-qW9 .savings-up-to-40-Q3T {
+  margin-bottom: 1.1rem;
+  width: 100%;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-1gsk-URP .auto-group-3lkh-rsB .group-47-qW9 .metre-per-second-provides-100-transparent-service-which-means-all-parts-are-opened-right-in-front-of-you-while-performing-service-and-no-more-surprised-or-extra-spares-or-costs-X85 {
+  max-width: 39.3rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4444444444;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h {
+  box-sizing: border-box;
+  padding: 10.7rem 16.7rem 7.8rem 16.7rem;
+  width: 172.8rem;
+  height: 118.5rem;
+  position: absolute;
+  left: 0;
+  top: 747.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f2f4;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .step-process-4XK {
+  margin: 0rem 0rem 10.3rem 0.4rem;
+  text-align: center;
+  font-size: 4.6rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy {
+  margin-bottom: 7.9rem;
+  width: 100%;
+  height: 69.1rem;
+  display: flex;
+  column-gap: 1.8rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-nfpd-Hus {
+  width: 33.5rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-nfpd-Hus .auto-group-nypu-qwP {
+  margin-bottom: 2.1rem;
+  box-sizing: border-box;
+  padding: 4.1rem 5.8rem 7.7rem 3.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-nfpd-Hus .auto-group-nypu-qwP .item-01-Meq {
+  margin-bottom: 6rem;
+  font-size: 8.1548rem;
+  font-weight: 400;
+  line-height: 0.8125000117;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-nfpd-Hus .auto-group-nypu-qwP .select-your-car-from-our-wide-range-of-car-make-catalogue-gBK {
+  max-width: 24.2rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-nfpd-Hus .auto-group-tvem-Npq {
+  box-sizing: border-box;
+  padding: 4.5rem 5.8rem 7.7rem 3.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-nfpd-Hus .auto-group-tvem-Npq .item-03-upm {
+  margin-bottom: 5.6rem;
+  font-size: 8.1548rem;
+  font-weight: 400;
+  line-height: 0.8125000117;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-nfpd-Hus .auto-group-tvem-Npq .select-where-you-want-your-car-to-get-repaired-T5b {
+  max-width: 24.2rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-qc7b-AEu {
+  width: 33.5rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-qc7b-AEu .auto-group-fv7s-7R3 {
+  margin-bottom: 2.1rem;
+  box-sizing: border-box;
+  padding: 4.1rem 6.4rem 7.7rem 3.5rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-qc7b-AEu .auto-group-fv7s-7R3 .item-02-cch {
+  margin: 0rem 7.9rem 6rem 0rem;
+  font-size: 8.1548rem;
+  font-weight: 400;
+  line-height: 0.8125000117;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-qc7b-AEu .auto-group-fv7s-7R3 .pick-your-preferred-service-for-car-at-affordable-prices-XUm {
+  max-width: 23.6rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-qc7b-AEu .auto-group-ygsd-dGu {
+  box-sizing: border-box;
+  padding: 4.5rem 6.2rem 4.7rem 3.5rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-qc7b-AEu .auto-group-ygsd-dGu .item-04-ZAZ {
+  margin: 0rem 7.4rem 5.6rem 0rem;
+  font-size: 8.1548rem;
+  font-weight: 400;
+  line-height: 0.8125000117;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-qc7b-AEu .auto-group-ygsd-dGu .go-cash-less-by-pay-paying-online-and-submit-your-feedback-5eh {
+  max-width: 23.8rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-nay1-aLZ {
+  box-sizing: border-box;
+  padding: 12rem 3.9rem;
+  width: 68.8rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-nay1-aLZ .metre-per-second-hg5 {
+  margin: 0rem 0rem 1.7rem 0.1rem;
+  text-align: center;
+  font-size: 4.6rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-nay1-aLZ .car-repair-at-your-doorstep-hJh {
+  margin-bottom: 6.1rem;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-nay1-aLZ .rectangle-68-cAm {
+  margin-bottom: 4.4rem;
+  width: 100%;
+  height: 11.4rem;
+  border: solid 0.16rem #000000;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 0.9rem;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-nay1-aLZ .go-to-services-jWH {
+  box-sizing: border-box;
+  padding: 3.6rem 15.367rem 3.033rem 13.9rem;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: solid 0.2rem #e9e743;
+  background-color: #f5f5f5;
+  border-radius: 0.9rem;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-nay1-aLZ .go-to-services-jWH .go-to-services-FjX {
+  margin: 0rem 1.833rem 0.467rem 0rem;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .auto-group-shhs-Ziy .auto-group-nay1-aLZ .go-to-services-jWH .bx-bx-list-plus-y9j {
+  margin-top: 0.4334rem;
+  width: 6rem;
+  height: 4.3333rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-rok5-N8h .group-28-Sp1 {
+  margin: 0rem 58.516rem 0rem 58.5rem;
+  width: calc(100% - 117.0163rem);
+  height: 7rem;
+  text-align: center;
+  font-size: 2.5885rem;
+  font-weight: 400;
+  line-height: 0.8125000046;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem rgba(0, 0, 0, 0.400000006);
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+  border-radius: 1.6279rem;
+  box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1199999973);
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-8a7j-FFf {
+  box-sizing: border-box;
+  padding: 7.1rem 26.5rem 12.6rem 26.5rem;
+  width: 172.8rem;
+  height: 42.9rem;
+  position: absolute;
+  left: 0;
+  top: 111.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+}
+.car-repair-guide-WCR .auto-group-8a7j-FFf .our-partners-9M3 {
+  margin: 0rem 0.1rem 7.5rem 0rem;
+  text-align: center;
+  font-size: 4.6rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-8a7j-FFf .group-1-rmF {
+  width: 100%;
+  display: flex;
+  column-gap: 9.1rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-8a7j-FFf .group-1-rmF .image-1-QXs {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-8a7j-FFf .group-1-rmF .image-2-Ye5 {
+  width: 15rem;
+  height: 10rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-8a7j-FFf .group-1-rmF .image-3-thw {
+  width: 13.3rem;
+  height: 10rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-8a7j-FFf .group-1-rmF .image-4-SDf {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-8a7j-FFf .group-1-rmF .image-5-bMT {
+  width: 16rem;
+  height: 10rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-8a7j-FFf .group-1-rmF .image-6-kVF {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 {
+  width: 144rem;
+  height: 66.8rem;
+  position: absolute;
+  left: 14.4rem;
+  top: 161rem;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .about-us-1vy {
+  width: 21.7rem;
+  height: 5.7rem;
+  position: absolute;
+  left: 61.3rem;
+  top: 2.6rem;
+  text-align: center;
+  font-size: 4.6rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .at-meter-per-second-we-take-pride-in-our-values-XeR {
+  width: 57.3rem;
+  height: 3.1rem;
+  position: absolute;
+  left: 43.3rem;
+  top: 10.7rem;
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-41-Rzh {
+  box-sizing: border-box;
+  padding-left: 0.5rem;
+  width: 39.25rem;
+  height: 3.1rem;
+  position: absolute;
+  left: 51.8rem;
+  top: 16.5rem;
+  display: flex;
+  align-items: center;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-41-Rzh .minus-M7f {
+  margin: 0.5rem 1.55rem 0rem 0rem;
+  width: 1.4rem;
+  height: 0;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-41-Rzh .serviceintegrity-and-excellece-Uxy {
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-42-oVT {
+  width: 40.5rem;
+  height: 37.8rem;
+  position: absolute;
+  left: 0;
+  top: 29rem;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-42-oVT .item-1-wLm {
+  margin-bottom: 6rem;
+  width: 100%;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-42-oVT .who-we-are-fXf {
+  margin-bottom: 2.2rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-42-oVT .established-in-2016-with-a-vision-to-provide-customers-transparent-convenient-and-reliable-car-service-and-repair-right-at-customer-doorstep-in-hyderabad-yYM {
+  max-width: 40.5rem;
+  font-size: 2.6rem;
+  font-weight: 300;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-43-32R {
+  width: 40.2rem;
+  height: 34.7rem;
+  position: absolute;
+  left: 51.7rem;
+  top: 29rem;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-43-32R .item-2-ZWZ {
+  margin-bottom: 6rem;
+  width: 100%;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-43-32R .what-is-the-problem-u4d {
+  margin-bottom: 2.2rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-43-32R .car-owners-often-lack-visibility-regarding-the-quality-of-mechanics-usage-of-spare-parts-and-transparency-in-price-Rof {
+  max-width: 40.2rem;
+  font-size: 2.6rem;
+  font-weight: 300;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-44-iXs {
+  width: 40.6rem;
+  height: 37.4rem;
+  position: absolute;
+  left: 103.4rem;
+  top: 29rem;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-44-iXs .item-3-45w {
+  margin-bottom: 5.6rem;
+  width: 100%;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-44-iXs .how-do-we-help-zVP {
+  margin-bottom: 2.2rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-44-iXs .now-metre-per-second-is-a-premier-doorstep-car-care-company-providing-car-service-with-professional-technicians-right-at-your-location-in-hyderabad-vdw {
+  max-width: 40.6rem;
+  font-size: 2.6rem;
+  font-weight: 300;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-5-oxd {
+  width: 128.8rem;
+  height: 29.3rem;
+  position: absolute;
+  left: 7.6rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-5-oxd .wind-kcy {
+  margin-right: 70.2rem;
+  width: 29.3rem;
+  height: 29.3rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-x6jd-6Z7 .group-5-oxd .wind-6B3 {
+  width: 29.3rem;
+  height: 29.3rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 {
+  box-sizing: border-box;
+  padding: 17rem 14.3rem 13.9rem 14.4rem;
+  width: 172.8rem;
+  height: 204.8rem;
+  position: absolute;
+  left: 0;
+  top: 312.3rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .our-services-vvm {
+  margin: 0rem 0rem 8.7rem 0.2rem;
+  text-align: center;
+  font-size: 4.6rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy {
+  margin-bottom: 2.6rem;
+  width: 100%;
+  height: 37.8rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-xn41-Bbo {
+  margin-right: 2.4rem;
+  box-sizing: border-box;
+  padding: 5.2rem 2.9rem 3.2rem 2.55rem;
+  width: 34.2rem;
+  height: 100%;
+  row-gap: 5.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-6.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-xn41-Bbo .auto-group-2t2m-bvR {
+  margin-left: 1.35rem;
+  width: calc(100% - 1.35rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-xn41-Bbo .auto-group-2t2m-bvR .image-7-Yqf {
+  margin-right: 10.9rem;
+  width: 13.2rem;
+  height: 8.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-xn41-Bbo .auto-group-2t2m-bvR .item-01-hCm {
+  margin-top: 0.1rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-xn41-Bbo .general-service-p2V {
+  margin-right: 3.95rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-xn41-Bbo .enquire-us-jQM {
+  margin-right: 5.05rem;
+  width: 21rem;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-xn41-Bbo .enquire-us-jQM .rectangle-53-3fw {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-xn41-Bbo .enquire-us-jQM .enquire-us-xnu {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uxh7-paD {
+  margin-right: 2.4rem;
+  box-sizing: border-box;
+  padding: 5.2rem 3rem 2.7rem 3.9rem;
+  width: 34.2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-7.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uxh7-paD .auto-group-v5sx-8L1 {
+  margin-bottom: 5.2rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uxh7-paD .auto-group-v5sx-8L1 .image-23-5FF {
+  margin-right: 10.3rem;
+  width: 13rem;
+  height: 8.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uxh7-paD .auto-group-v5sx-8L1 .item-02-cW5 {
+  margin-top: 0.1rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uxh7-paD .denting-and-painting-w2Z {
+  margin: 0rem 6.9rem 2.3rem 0rem;
+  max-width: 20.4rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9375;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uxh7-paD .group-51-35b {
+  margin-right: 6.3rem;
+  width: 21rem;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uxh7-paD .group-51-35b .rectangle-53-Ndf {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uxh7-paD .group-51-35b .enquire-us-Hkd {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-3nx3-Nn5 {
+  margin-right: 2.5rem;
+  box-sizing: border-box;
+  padding: 5.2rem 3rem 2.7rem 3.9rem;
+  width: 34.2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-8.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-3nx3-Nn5 .auto-group-pkwy-He9 {
+  margin-bottom: 5.2rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-3nx3-Nn5 .auto-group-pkwy-He9 .image-24-EpH {
+  margin-right: 10.3rem;
+  width: 13.1rem;
+  height: 8.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-3nx3-Nn5 .auto-group-pkwy-He9 .item-03-aNM {
+  margin-top: 0.1rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-3nx3-Nn5 .car-inspection-VkD {
+  margin: 0rem 4rem 5.7rem 0rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-3nx3-Nn5 .group-52-R85 {
+  margin-right: 6.3rem;
+  width: 21rem;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-3nx3-Nn5 .group-52-R85 .rectangle-53-mSq {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-3nx3-Nn5 .group-52-R85 .enquire-us-gph {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uq2d-NBj {
+  box-sizing: border-box;
+  padding: 5.2rem 2.8rem 2.7rem 3.8rem;
+  width: 34.2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-9.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uq2d-NBj .auto-group-fypj-gCR {
+  margin: 0rem 0rem 5.2rem 0.1rem;
+  width: calc(100% - 0.1rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uq2d-NBj .auto-group-fypj-gCR .image-25-Pcd {
+  margin-right: 10.1rem;
+  width: 13.1rem;
+  height: 8.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uq2d-NBj .auto-group-fypj-gCR .item-04-Mxm {
+  margin-top: 0.1rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uq2d-NBj .battery-replacement-sRK {
+  margin: 0rem 7rem 2.3rem 0rem;
+  max-width: 20.6rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9375;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uq2d-NBj .group-53-P8m {
+  margin-right: 6.4rem;
+  width: 21rem;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uq2d-NBj .group-53-P8m .rectangle-53-veV {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-ncth-eLy .auto-group-uq2d-NBj .group-53-P8m .enquire-us-Ev5 {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z {
+  margin-bottom: 3.1rem;
+  width: 100%;
+  height: 37.8rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-d3v9-dxD {
+  margin-right: 2.4rem;
+  box-sizing: border-box;
+  padding: 3.1rem 2.6rem 2.7rem 2.6rem;
+  width: 34.2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-10.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-d3v9-dxD .auto-group-dluf-Z5B {
+  margin-bottom: 2.8rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-d3v9-dxD .auto-group-dluf-Z5B .image-30-JoT {
+  margin-right: 7.9rem;
+  width: 17.1rem;
+  height: 12.6rem;
+  position: relative;
+  background-size: 132.301% 180.12%;
+  background-position: -2.7996rem -4.4783rem;
+  background-image: url('../assets/image-30-QKB.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-d3v9-dxD .auto-group-dluf-Z5B .item-05-NYR {
+  margin-top: 2.2rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-d3v9-dxD .ac-service-repair-hKo {
+  margin: 0rem 6.8rem 2.6rem 0rem;
+  max-width: 19.6rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9375;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-d3v9-dxD .group-54-cSm {
+  margin-right: 5.4rem;
+  width: 21rem;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-d3v9-dxD .group-54-cSm .rectangle-53-kos {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-d3v9-dxD .group-54-cSm .enquire-us-gSd {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-c44z-NKT {
+  margin-right: 2.4rem;
+  box-sizing: border-box;
+  padding: 4.7rem 2.9rem 2.7rem 3.9rem;
+  width: 34.2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-11.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-c44z-NKT .auto-group-kaob-UtH {
+  margin-bottom: 3.1rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-c44z-NKT .auto-group-kaob-UtH .image-31-qD3 {
+  margin-right: 12.3rem;
+  width: 11rem;
+  height: 11rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-c44z-NKT .auto-group-kaob-UtH .item-06-NTs {
+  margin-top: 0.6rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-c44z-NKT .car-fitments-J6d {
+  margin: 0rem 7.5rem 5.3rem 0rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9375;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-c44z-NKT .group-55-cd7 {
+  margin-right: 6.4rem;
+  width: 21rem;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-c44z-NKT .group-55-cd7 .rectangle-53-ZYM {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-c44z-NKT .group-55-cd7 .enquire-us-gss {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-jtph-Zwf {
+  margin-right: 2.5rem;
+  box-sizing: border-box;
+  padding: 1.6rem 0.9rem 2.7rem 0.9rem;
+  width: 34.2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-12.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-jtph-Zwf .auto-group-j2vv-shT {
+  margin-right: 2.1rem;
+  width: calc(100% - 2.1rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-jtph-Zwf .auto-group-j2vv-shT .image-32-pMo {
+  margin-right: 9.1rem;
+  width: 17.2rem;
+  height: 17.2rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-jtph-Zwf .auto-group-j2vv-shT .item-07-m29 {
+  margin-bottom: 7.2rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-jtph-Zwf .car-detailing-services-VTw {
+  margin: 0rem 5.4rem 2.3rem 0rem;
+  max-width: 21rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9375;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-jtph-Zwf .group-56-Qau {
+  margin: 0rem 8.4rem 0rem 3rem;
+  width: calc(100% - 11.4rem);
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-jtph-Zwf .group-56-Qau .rectangle-53-Kxm {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-jtph-Zwf .group-56-Qau .enquire-us-qgD {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-48yx-KbP {
+  box-sizing: border-box;
+  padding: 4.9rem 2.9rem 2.7rem 3.8rem;
+  width: 34.2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-13.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-48yx-KbP .auto-group-ju1o-qZj {
+  margin: 0rem 0rem 1.9rem 0.1rem;
+  width: calc(100% - 0.1rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-48yx-KbP .auto-group-ju1o-qZj .image-33-myB {
+  margin-right: 11.2rem;
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-48yx-KbP .auto-group-ju1o-qZj .item-08-XBf {
+  margin-top: 0.4rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-48yx-KbP .car-major-repairs-FNZ {
+  margin: 0rem 11.7rem 2.3rem 0rem;
+  max-width: 15.8rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9375;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-48yx-KbP .group-57-xGy {
+  margin-right: 6.3rem;
+  width: 21rem;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-48yx-KbP .group-57-xGy .rectangle-53-W3b {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-qhzt-i4Z .auto-group-48yx-KbP .group-57-xGy .enquire-us-RwF {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ {
+  margin-bottom: 2.6rem;
+  width: 100%;
+  height: 37.8rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tamo-Td3 {
+  margin-right: 2.4rem;
+  box-sizing: border-box;
+  padding: 5.3rem 2.5rem 2.7rem 3.9rem;
+  width: 34.2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-14.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tamo-Td3 .auto-group-k5ds-aBs {
+  margin-bottom: 4.3rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tamo-Td3 .auto-group-k5ds-aBs .image-44-XN1 {
+  margin-right: 13rem;
+  width: 10.7rem;
+  height: 9.2rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tamo-Td3 .auto-group-k5ds-aBs .item-09-sAy {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tamo-Td3 .windshield-lights-1HB {
+  margin: 0rem 5.7rem 2.3rem 0rem;
+  max-width: 22.1rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9375;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tamo-Td3 .group-58-Wzd {
+  margin-right: 6.8rem;
+  width: 21rem;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tamo-Td3 .group-58-Wzd .rectangle-53-GU1 {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tamo-Td3 .group-58-Wzd .enquire-us-zuo {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tawd-5wF {
+  margin-right: 2.4rem;
+  box-sizing: border-box;
+  padding: 5.2rem 1.6rem 2.7rem 1.6rem;
+  width: 34.2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-16.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tawd-5wF .auto-group-m6em-o6Z {
+  margin: 0rem 1.7rem 3.6rem 0rem;
+  width: calc(100% - 1.7rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tawd-5wF .auto-group-m6em-o6Z .image-45-8Pj {
+  margin-right: 16rem;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tawd-5wF .auto-group-m6em-o6Z .item-10-4oB {
+  margin-top: 0.1rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tawd-5wF .suspeension-repairs-Q6M {
+  margin: 0rem 5.9rem 2.3rem 0rem;
+  max-width: 20.5rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9375;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tawd-5wF .group-59-hr9 {
+  margin-right: 5.4rem;
+  width: 21rem;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tawd-5wF .group-59-hr9 .rectangle-53-Fcm {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-tawd-5wF .group-59-hr9 .enquire-us-yHs {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-qapq-r6m {
+  margin-right: 2.5rem;
+  box-sizing: border-box;
+  padding: 4.4rem 3.8rem 2.7rem 3.8rem;
+  width: 34.2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-18.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-qapq-r6m .auto-group-1jkq-ANM {
+  margin-bottom: 4.9rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-qapq-r6m .auto-group-1jkq-ANM .image-46-i8y {
+  margin-right: 9.9rem;
+  width: 14.3rem;
+  height: 9.5rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-qapq-r6m .auto-group-1jkq-ANM .item-11-eHX {
+  margin-top: 0.9rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-qapq-r6m .clutch-repairs-MBw {
+  margin: 0rem 3rem 5.7rem 0rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-qapq-r6m .group-60-2J5 {
+  margin-right: 5.4rem;
+  width: 21rem;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-qapq-r6m .group-60-2J5 .rectangle-53-4Vf {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-qapq-r6m .group-60-2J5 .enquire-us-ysX {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-z1v9-eyf {
+  box-sizing: border-box;
+  padding: 4.4rem 3.5rem 2.7rem 3.8rem;
+  width: 34.2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-20.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-z1v9-eyf .auto-group-4mz1-xjT {
+  margin-bottom: 3.6rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-z1v9-eyf .auto-group-4mz1-xjT .image-47-uub {
+  margin-right: 13.1rem;
+  width: 10.8rem;
+  height: 10.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-z1v9-eyf .auto-group-4mz1-xjT .item-12-41o {
+  margin-top: 0.9rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-z1v9-eyf .tires-wheels-BcD {
+  margin: 0rem 3.6rem 5.3rem 0rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9375;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-z1v9-eyf .group-61-iMF {
+  margin-right: 5.7rem;
+  width: 21rem;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-z1v9-eyf .group-61-iMF .rectangle-53-fXP {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-rxrk-iQZ .auto-group-z1v9-eyf .group-61-iMF .enquire-us-PiH {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM {
+  width: 100%;
+  height: 37.8rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-eke1-R9B {
+  margin-right: 2.4rem;
+  box-sizing: border-box;
+  padding: 4.7rem 3.1rem 2.7rem 2.9rem;
+  width: 34.2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-15.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-eke1-R9B .auto-group-32u7-L1F {
+  margin-bottom: 1.2rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-eke1-R9B .auto-group-32u7-L1F .image-48-t2m {
+  margin-right: 12.6rem;
+  width: 12.6rem;
+  height: 12.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-eke1-R9B .auto-group-32u7-L1F .item-13-Dqj {
+  margin-top: 0.6rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-eke1-R9B .brake-repairs-8xh {
+  margin: 0rem 4.1rem 5.6rem 0rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9375;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-eke1-R9B .group-62-Tk5 {
+  margin-right: 5.2rem;
+  width: 21rem;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-eke1-R9B .group-62-Tk5 .rectangle-53-1Wh {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-eke1-R9B .group-62-Tk5 .enquire-us-L3B {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-n8x9-1v1 {
+  margin-right: 2.4rem;
+  box-sizing: border-box;
+  padding: 3.2rem 3.3rem 2.7rem 3.6rem;
+  width: 34.2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-17.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-n8x9-1v1 .auto-group-qtjx-8Uq {
+  margin-bottom: 3.7rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-n8x9-1v1 .auto-group-qtjx-8Uq .image-49-HMj {
+  margin-right: 8.1rem;
+  width: 15.9rem;
+  height: 11.9rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-n8x9-1v1 .auto-group-qtjx-8Uq .item-14-PvZ {
+  margin-top: 2.1rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-n8x9-1v1 .car-services-K3X {
+  margin: 0rem 7.3rem 5.3rem 0rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9375;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-n8x9-1v1 .group-63-2id {
+  margin-right: 5.7rem;
+  width: 21rem;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-n8x9-1v1 .group-63-2id .rectangle-53-mgD {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-n8x9-1v1 .group-63-2id .enquire-us-HPf {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-rn5o-ko3 {
+  margin-right: 2.5rem;
+  box-sizing: border-box;
+  padding: 3.2rem 3.5rem 2.7rem 3.9rem;
+  width: 34.2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-19.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-rn5o-ko3 .auto-group-puld-4Yq {
+  margin-bottom: 3.3rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-rn5o-ko3 .auto-group-puld-4Yq .image-43-DAq {
+  margin-right: 11.5rem;
+  width: 12.3rem;
+  height: 12.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-rn5o-ko3 .auto-group-puld-4Yq .item-15-wcd {
+  margin-top: 2.1rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-rn5o-ko3 .membership-GQ1 {
+  margin: 0rem 6.2rem 5.3rem 0rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9375;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-rn5o-ko3 .group-64-ndF {
+  margin-right: 5.8rem;
+  width: 21rem;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-rn5o-ko3 .group-64-ndF .rectangle-53-j2h {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-rn5o-ko3 .group-64-ndF .enquire-us-eQZ {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-acf3-8qX {
+  box-sizing: border-box;
+  padding: 4.9rem 3.4rem 2.7rem 3.8rem;
+  width: 34.2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/vector-21.png');
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-acf3-8qX .auto-group-vij5-FfF {
+  margin: 0rem 0rem 1.9rem 0.1rem;
+  width: calc(100% - 0.1rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-acf3-8qX .auto-group-vij5-FfF .image-41-n9P {
+  margin-right: 11.7rem;
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-acf3-8qX .auto-group-vij5-FfF .item-16-X6y {
+  margin-top: 0.4rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: #e5e5e5;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-acf3-8qX .insurence-claims-FHs {
+  margin: 0rem 11.1rem 2.3rem 0rem;
+  max-width: 15.9rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.9375;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-acf3-8qX .group-65-Afj {
+  margin-right: 5.8rem;
+  width: 21rem;
+  height: 8rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-acf3-8qX .group-65-Afj .rectangle-53-7L5 {
+  width: 21rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.3rem;
+  border: solid 0.2rem #e94343;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+.car-repair-guide-WCR .auto-group-6hbw-Eo3 .auto-group-vkps-stM .auto-group-acf3-8qX .group-65-Afj .enquire-us-RrZ {
+  width: 10.5rem;
+  height: 8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 4.4444444444;
+  letter-spacing: 0.18rem;
+  color: #1f1f1f;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX {
+  box-sizing: border-box;
+  padding: 17rem 0rem 6.3rem 0rem;
+  width: 172.8rem;
+  height: 128.7rem;
+  position: absolute;
+  left: 0;
+  top: 619.1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .what-we-have-achieved-till-date-zYH {
+  margin: 0rem 0rem 11.3rem 1.2rem;
+  text-align: center;
+  font-size: 4.6rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR {
+  margin-right: 11.9rem;
+  width: calc(100% - 11.9rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .rectangle-60-dr9 {
+  margin-right: 14rem;
+  width: 84.2rem;
+  height: 88.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d {
+  width: 63.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-gu6y-8nu {
+  box-sizing: border-box;
+  padding-bottom: 7.6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-gu6y-8nu .metre-per-secod-is-a-5-year-old-indias-premium-and-best-rated-car-maintenance-startup-a-glimpse-of-what-we-have-achieved-is-as-follows-gJd {
+  margin-bottom: 5.6rem;
+  max-width: 53.7rem;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-gu6y-8nu .auto-group-wvz3-Lty {
+  margin: 0rem 1.7rem 7.6rem 0rem;
+  width: calc(100% - 1.7rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-gu6y-8nu .auto-group-wvz3-Lty .ellipse-3-55s {
+  margin-right: 5.5rem;
+  width: 15.4rem;
+  height: 15.4rem;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-3-bg.png');
+  border-radius: 7.7rem;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-gu6y-8nu .auto-group-wvz3-Lty .k-cars-get-serviced-a2d {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-gu6y-8nu .auto-group-wvz3-Lty .k-cars-get-serviced-a2d .k-cars-get-serviced-a2d-sub-0 {
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 0.619047619;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-gu6y-8nu .auto-group-wvz3-Lty .k-cars-get-serviced-a2d .k-cars-get-serviced-a2d-sub-1 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-gu6y-8nu .auto-group-oqn1-p5P {
+  margin-right: 26rem;
+  width: calc(100% - 26rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-gu6y-8nu .auto-group-oqn1-p5P .ellipse-5-ZYm {
+  margin-right: 6.5rem;
+  width: 15.4rem;
+  height: 15.4rem;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-5-bg.png');
+  border-radius: 7.7rem;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-gu6y-8nu .auto-group-oqn1-p5P .rated-Gxy {
+  display: flex;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 0.619047619;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-gu6y-8nu .auto-group-oqn1-p5P .rated-Gxy .rated-Gxy-sub-0 {
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-gu6y-8nu .auto-group-oqn1-p5P .rated-Gxy .rated-Gxy-sub-1 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Lato, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-uav5-5vR {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-uav5-5vR .ellipse-4-dww {
+  margin-right: 6.5rem;
+  width: 15.4rem;
+  height: 15.4rem;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-4-bg.png');
+  border-radius: 7.7rem;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-uav5-5vR .k-happy-customers-Md3 {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-uav5-5vR .k-happy-customers-Md3 .k-happy-customers-Md3-sub-0 {
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 0.619047619;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-pfhb-VbX .auto-group-ccwk-6LR .auto-group-fzfp-P4d .auto-group-uav5-5vR .k-happy-customers-Md3 .k-happy-customers-Md3-sub-1 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.8125;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D {
+  box-sizing: border-box;
+  padding: 9.3rem 15.8rem 8rem 15.4rem;
+  width: 172.8rem;
+  height: 56.8rem;
+  position: absolute;
+  left: 0;
+  top: 866.3rem;
+  background-color: #1f1f1f;
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .contact-us-DHs {
+  margin-bottom: 2.9rem;
+  width: 100%;
+  text-align: center;
+  font-size: 4.6rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  text-decoration-line: underline;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .if-it-is-something-about-cars-lets-talk-mecassist-car-service-car-repair--hTw {
+  margin: 1rem 18.5rem 0rem 0rem;
+  max-width: 75.6rem;
+  font-size: 4.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Times New Roman, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .if-it-is-something-about-cars-lets-talk-mecassist-car-service-car-repair--hTw .if-it-is-something-about-cars-lets-talk-mecassist-car-service-car-repair--hTw-sub-0 {
+  font-size: 4.6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .if-it-is-something-about-cars-lets-talk-mecassist-car-service-car-repair--hTw .if-it-is-something-about-cars-lets-talk-mecassist-car-service-car-repair--hTw-sub-1 {
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .if-it-is-something-about-cars-lets-talk-mecassist-car-service-car-repair--hTw .if-it-is-something-about-cars-lets-talk-mecassist-car-service-car-repair--hTw-sub-2 {
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .if-it-is-something-about-cars-lets-talk-mecassist-car-service-car-repair--hTw .if-it-is-something-about-cars-lets-talk-mecassist-car-service-car-repair--hTw-sub-3 {
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .if-it-is-something-about-cars-lets-talk-mecassist-car-service-car-repair--hTw .if-it-is-something-about-cars-lets-talk-mecassist-car-service-car-repair--hTw-sub-4 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .auto-group-64x9-apZ {
+  width: 47.5rem;
+  height: 19.3rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .auto-group-64x9-apZ .supportmetrepersecondcom-7pV {
+  width: 47.4rem;
+  height: 16rem;
+  position: absolute;
+  left: 0.1rem;
+  top: 0;
+  font-size: 3.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .auto-group-64x9-apZ .ellipse-10-Dcd {
+  width: 7.5rem;
+  height: 7.5rem;
+  position: absolute;
+  left: 36.8rem;
+  top: 11.8rem;
+  background-color: #c4c4c4;
+  border-radius: 3.75rem;
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .auto-group-64x9-apZ .group-68-jqs {
+  box-sizing: border-box;
+  padding: 2.004rem 2.004rem 1.904rem 1.905rem;
+  width: 7.5rem;
+  height: 7.5rem;
+  position: absolute;
+  left: 9.2rem;
+  top: 11.8rem;
+  background-color: #c4c4c4;
+  border-radius: 3.75rem;
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .auto-group-64x9-apZ .group-68-jqs .ant-design-instagram-filled-T1B {
+  width: 3.5914rem;
+  height: 3.5913rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .auto-group-64x9-apZ .group-67-mGm {
+  box-sizing: border-box;
+  padding: 2.1rem 3rem 2rem 2.9rem;
+  width: 7.5rem;
+  height: 7.5rem;
+  position: absolute;
+  left: 0;
+  top: 11.8rem;
+  background-color: #c4c4c4;
+  border-radius: 3.75rem;
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .auto-group-64x9-apZ .group-67-mGm .brandico-facebook-5HT {
+  width: 1.6rem;
+  height: 3.4rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .auto-group-64x9-apZ .group-69-CN5 {
+  box-sizing: border-box;
+  padding: 2.287rem 1.8rem 2.473rem 1.8rem;
+  width: 7.5rem;
+  height: 7.5rem;
+  position: absolute;
+  left: 18.4rem;
+  top: 11.8rem;
+  background-color: #c4c4c4;
+  border-radius: 3.75rem;
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .auto-group-64x9-apZ .group-69-CN5 .bi-youtube-Jvu {
+  width: 3.8998rem;
+  height: 2.7395rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .auto-group-64x9-apZ .group-70-EJm {
+  box-sizing: border-box;
+  padding: 2.11rem 2.11rem 2.11rem 2.101rem;
+  width: 7.5rem;
+  height: 7.5rem;
+  position: absolute;
+  left: 27.6rem;
+  top: 11.8rem;
+  background-color: #c4c4c4;
+  border-radius: 3.75rem;
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .auto-group-64x9-apZ .group-70-EJm .dashicons-whatsapp-YqF {
+  width: 3.289rem;
+  height: 3.28rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.car-repair-guide-WCR .auto-group-mwj7-i6D .auto-group-qa1p-LdP .auto-group-64x9-apZ .ant-design-linkedin-filled-GmF {
+  width: 3.3594rem;
+  height: 3.3594rem;
+  position: absolute;
+  left: 38.8703rem;
+  top: 13.8703rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.car-repair-guide-WCR .rectangle-3-amw {
+  width: 172.8rem;
+  height: 13.9rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
+}
+.car-repair-guide-WCR .rectangle-4-XSH {
+  width: 172.8rem;
+  height: 8.8rem;
+  position: absolute;
+  left: 0;
+  top: 13.9rem;
+  background-color: #e94343;
+}
+.car-repair-guide-WCR .whh-circlecalloutgoing-U6d {
+  width: 4.2rem;
+  height: 4.2rem;
+  position: absolute;
+  left: 154.2rem;
+  top: 16.2rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.car-repair-guide-WCR .logos-whatsapp-n7K {
+  width: 4.1987rem;
+  height: 4.1853rem;
+  position: absolute;
+  left: 144.4007rem;
+  top: 16.2rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.car-repair-guide-WCR .logo-container-7QV {
+  box-sizing: border-box;
+  padding: 1.4rem 0rem 3.3rem 0rem;
+  width: 27.5568rem;
+  height: 10rem;
+  position: absolute;
+  left: 11.4432rem;
+  top: 2.9rem;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+.car-repair-guide-WCR .logo-container-7QV .mecassist-1Vs {
+  margin-bottom: 1.4rem;
+  width: 100%;
+  text-align: center;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 0.5;
+  letter-spacing: 0.144rem;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .logo-container-7QV .frame-25-ifB {
+  margin-right: 4.7rem;
+  width: 0.9rem;
+  height: 1.5rem;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.car-repair-guide-WCR .home-R3o {
+  width: 5.9rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 101.6rem;
+  top: 7.2rem;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .services-vFT {
+  width: 7.8rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 110.5rem;
+  top: 7.2rem;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .cart-E1F {
+  width: 4.1rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 121.3rem;
+  top: 7.2rem;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.car-repair-guide-WCR .frame-2-Lpy {
+  width: 13.9rem;
+  height: 5.9rem;
+  position: absolute;
+  left: 144.5rem;
+  top: 5.4rem;
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+}
+.car-repair-guide-WCR .frame-3-pEM {
+  width: 17.4rem;
+  height: 5.1rem;
+  position: absolute;
+  left: 15.4rem;
+  top: 15.7rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.200000003);
+  background-color: #ffffff;
+  border-radius: 3.3rem;
+}

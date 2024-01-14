@@ -1,0 +1,1733 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144.4rem;
+}.product-details-X4u {
+  width: 100%;
+  height: 247.5rem;
+}
+.product-details-X4u .product-details-page-G2V {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 {
+  width: 117rem;
+  height: 3.8rem;
+  position: absolute;
+  left: 13.7rem;
+  top: 8.9rem;
+  display: flex;
+  align-items: center;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 .frame-556-KWZ {
+  margin: 0.7rem 16.1rem 0.7rem 0rem;
+  height: calc(100% - 1.4rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 .frame-556-KWZ .logo-F9K {
+  margin-right: 14.7rem;
+  width: 13.1rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.072rem;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 .frame-556-KWZ .frame-554-p5w {
+  box-sizing: border-box;
+  padding-right: 8.1rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 .frame-556-KWZ .frame-554-p5w .header-m1B {
+  margin-right: 3.4rem;
+  width: 4.8rem;
+  height: 100%;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 .frame-556-KWZ .frame-554-p5w .header-3zH {
+  margin-right: 3.7rem;
+  width: 9.5rem;
+  height: 100%;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 .frame-556-KWZ .frame-554-p5w .about-A3K {
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 .frame-552-H7w {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 .frame-552-H7w .search-component-set-SWd {
+  margin-right: 2.4rem;
+  box-sizing: border-box;
+  padding: 0.7rem 1.2rem 0.7rem 2rem;
+  width: 24.3rem;
+  height: 100%;
+  background-color: #f5f5f5;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 .frame-552-H7w .search-component-set-SWd .frame-550-ASd {
+  box-sizing: border-box;
+  padding: 0.3rem 0.4rem 0.3rem 0rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 .frame-552-H7w .search-component-set-SWd .frame-550-ASd .what-are-you-looking-for-hxM {
+  margin-right: 3.8rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 .frame-552-H7w .search-component-set-SWd .frame-550-ASd .component-2-Dfo {
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 .frame-552-H7w .frame-551-wrh {
+  margin: 0.3rem 0;
+  height: calc(100% - 0.6rem);
+  display: flex;
+  column-gap: 1.6rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 .frame-552-H7w .frame-551-wrh .wishlist-Tq3 {
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 .frame-552-H7w .frame-551-wrh .cart1-with-buy-QVP {
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .header-CB3 .frame-552-H7w .frame-551-wrh .user-YLh {
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 4.7rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .line-3-stm {
+  width: 144rem;
+  height: 0.05rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 14.3rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.product-details-X4u .product-details-page-G2V .roadmap-pJD {
+  width: 38.5rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 13.7rem;
+  top: 22.3rem;
+  display: flex;
+  align-items: center;
+}
+.product-details-X4u .product-details-page-G2V .roadmap-pJD .auto-group-ixsj-khf {
+  box-sizing: border-box;
+  padding: 0.15rem 1.2rem 0.15rem 0rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .roadmap-pJD .auto-group-ixsj-khf .home-HBo {
+  margin-right: 1.2rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .roadmap-pJD .auto-group-ixsj-khf .line-13-byB {
+  margin: 0rem 1.2rem 1.075rem 0rem;
+  width: 0.6rem;
+  height: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .roadmap-pJD .auto-group-ixsj-khf .shop-KuB {
+  margin-right: 1.2rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .roadmap-pJD .auto-group-ixsj-khf .line-16-fTF {
+  margin-bottom: 1.075rem;
+  width: 0.6rem;
+  height: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .roadmap-pJD .auto-group-v4nm-1GD {
+  width: 24.7rem;
+  height: 100%;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.072rem;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw {
+  width: 117.4rem;
+  height: 60rem;
+  position: absolute;
+  left: 13.7rem;
+  top: 32.4rem;
+  display: flex;
+  align-items: flex-start;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .frame-895-1vR {
+  margin: 0rem 3.1rem 46.2rem 0rem;
+  box-sizing: border-box;
+  padding: 1.2rem 2.5rem 1.2rem 2.4rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #f5f5f5;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .frame-895-1vR .image-57-LC1 {
+  width: 12.1rem;
+  height: 11.4rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .frame-894-rg9 {
+  margin-right: 7rem;
+  box-sizing: border-box;
+  padding-top: 10rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #f5f5f5;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .frame-894-rg9 .image-73-btd {
+  width: 50rem;
+  height: 50rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 {
+  width: 40.3rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .ultra-fine-polish-USd {
+  margin: 0rem 0rem 1.6rem 0.2rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.072rem;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-922-yPP {
+  margin: 0rem 17.4rem 1.6rem 0.2rem;
+  width: calc(100% - 17.6rem);
+  height: 2.1rem;
+  display: flex;
+  align-items: center;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-922-yPP .frame-566-h4V {
+  margin-right: 1.6rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-922-yPP .frame-566-h4V .five-star-Eq7 {
+  margin: 0rem 0.8rem 0.1rem 0rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-922-yPP .frame-566-h4V .five-star-Eq7 .vector-Ayf {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-922-yPP .frame-566-h4V .five-star-Eq7 .vector-iEV {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-922-yPP .frame-566-h4V .five-star-Eq7 .vector-Ths {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-922-yPP .frame-566-h4V .five-star-Eq7 .vector-1jP {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-922-yPP .frame-566-h4V .five-star-Eq7 .vector-xuX {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-922-yPP .frame-566-h4V .item-65-v5f {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-922-yPP .frame-921-rED {
+  box-sizing: border-box;
+  padding-left: 1.6rem;
+  height: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #00ff66;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  border-left: solid 0.1rem #000000;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .mad-kaV {
+  margin: 0rem 0rem 2.4rem 0.2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #db4444;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF {
+  margin: 0rem 0rem 0.3rem 0.2rem;
+  max-width: 33.2rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF-sub-0 {
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF-sub-1 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration-line: underline;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF-sub-2 {
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF-sub-3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration-line: underline;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF-sub-4 {
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF-sub-5 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration-line: underline;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF-sub-6 {
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF-sub-7 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration-line: underline;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF-sub-8 {
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF .ugs-m20532-catgories-correction-lustrage-correction-polilustrage-polissage-lustrage-polissage-lustrage-profesionnels-gDF-sub-9 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration-line: underline;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .underline-sDB {
+  margin: 0rem 0rem 3.5rem 0.2rem;
+  opacity: 0.5;
+  width: 40rem;
+  height: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .auto-group-h4gz-CFT {
+  margin: 0rem 0rem 2.3rem 0.3rem;
+  height: 4.7rem;
+  display: flex;
+  align-items: center;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .auto-group-h4gz-CFT .frame-926-897 {
+  margin: 0rem 1.6rem 0.3rem 0rem;
+  width: 15.9rem;
+  height: 4.4rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .auto-group-h4gz-CFT .frame-926-897 .frame-906-TBP {
+  width: 4rem;
+  height: 4.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .auto-group-h4gz-CFT .frame-926-897 .frame-908-ArV {
+  width: 8rem;
+  height: 4.4rem;
+  position: absolute;
+  left: 3.9rem;
+  top: 0;
+  overflow: hidden;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .auto-group-h4gz-CFT .frame-926-897 .frame-907-rUR {
+  width: 4.1rem;
+  height: 4.4rem;
+  position: absolute;
+  left: 11.8rem;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .auto-group-h4gz-CFT .button-BFo {
+  margin-right: 2rem;
+  width: 16.5rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #f9f9f9;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #db4444;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .auto-group-h4gz-CFT .frame-904-fRs {
+  width: 4rem;
+  height: 4.3rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .button-CRo {
+  margin: 0rem 0.5rem 2.2rem 0.3rem;
+  width: calc(100% - 0.8rem);
+  height: 5.6rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #f9f9f9;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #db4444;
+  border-radius: 0.4rem;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-911-5Eh {
+  box-sizing: border-box;
+  padding: 2.4rem 0rem 3.7rem 0rem;
+  width: 39.9rem;
+  overflow: hidden;
+  position: relative;
+  border: solid 0.1rem rgba(0, 0, 0, 0.5);
+  border-radius: 0.4rem;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-911-5Eh .frame-915-bTw {
+  margin: 0rem 5rem 1.6rem 1.6rem;
+  width: calc(100% - 6.6rem);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-911-5Eh .frame-915-bTw .icon-delivery-7hB {
+  margin-right: 1.6rem;
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-911-5Eh .frame-915-bTw .frame-913-TFF {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-911-5Eh .frame-915-bTw .frame-913-TFF .free-delivery-p5o {
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-911-5Eh .frame-915-bTw .frame-913-TFF .enter-your-postal-code-for-delivery-availability-YXb {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration-line: underline;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-911-5Eh .underline-GCh {
+  margin-bottom: 1.5rem;
+  opacity: 0.5;
+  width: 39.9rem;
+  height: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-911-5Eh .frame-914-Q41 {
+  margin: 0rem 10.2rem 0rem 1.6rem;
+  width: calc(100% - 11.8rem);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-911-5Eh .frame-914-Q41 .icon-return-XeR {
+  margin-right: 1.6rem;
+  width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-911-5Eh .frame-914-Q41 .frame-912-g1X {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-911-5Eh .frame-914-Q41 .frame-912-g1X .return-delivery-EHw {
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-911-5Eh .frame-914-Q41 .frame-912-g1X .free-30-days-delivery-returns-details-mof {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-911-5Eh .frame-914-Q41 .frame-912-g1X .free-30-days-delivery-returns-details-mof .free-30-days-delivery-returns-details-mof-sub-0 {
+}
+.product-details-X4u .product-details-page-G2V .auto-group-szyh-hPw .auto-group-wndf-jV3 .frame-911-5Eh .frame-914-Q41 .frame-912-g1X .free-30-days-delivery-returns-details-mof .free-30-days-delivery-returns-details-mof-sub-1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration-line: underline;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.product-details-X4u .product-details-page-G2V .frame-923-i6d {
+  width: 14rem;
+  height: 4rem;
+  position: absolute;
+  left: 15.8rem;
+  top: 191.5rem;
+  display: flex;
+  align-items: center;
+}
+.product-details-X4u .product-details-page-G2V .frame-923-i6d .rectangle-17-Eam {
+  margin-right: 1.6rem;
+  width: 2rem;
+  height: 4rem;
+  background-color: #db4444;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-923-i6d .related-item-Zsw {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #db4444;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-923-uqK {
+  width: 10.3rem;
+  height: 4rem;
+  position: absolute;
+  left: 17.1rem;
+  top: 100.7rem;
+  display: flex;
+  align-items: center;
+}
+.product-details-X4u .product-details-page-G2V .frame-923-uqK .rectangle-17-eH7 {
+  margin-right: 1.6rem;
+  width: 2rem;
+  height: 4rem;
+  background-color: #db4444;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-923-uqK .reviews-agZ {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #db4444;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w {
+  width: 115.5rem;
+  height: 25.6rem;
+  position: absolute;
+  left: 17.1rem;
+  top: 106.8rem;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-3-r8H {
+  margin-bottom: 0.8rem;
+  width: 100%;
+  height: 3.8rem;
+  display: flex;
+  align-items: center;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-3-r8H .frame-3-nnd {
+  margin-right: 95.7rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-3-r8H .frame-3-nnd .haitam-irhal-97P {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.3846153846;
+  letter-spacing: 0.016rem;
+  color: rgba(0, 0, 0, 0.8700000048);
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-3-r8H .frame-3-nnd .verified-buyer-Tds {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.6666666667;
+  letter-spacing: 0.014rem;
+  color: #4caf50;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-3-r8H .frame-3-nnd .verified-buyer-Tds .verified-buyer-Tds-sub-0 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.6666666667;
+  letter-spacing: 0.014rem;
+  color: #4caf50;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-3-r8H .frame-3-nnd .verified-buyer-Tds .verified-buyer-Tds-sub-1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.6666666667;
+  letter-spacing: 0.014rem;
+  color: #4caf50;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-3-r8H .star-group-z1X {
+  width: 12rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .unmatched-shine-protection-jE1 {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5700001035;
+  letter-spacing: 0.01rem;
+  color: rgba(0, 0, 0, 0.8700000048);
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .this-ultra-fine-polish-is-a-game-changer-effortless-application-stunning-mirror-like-finish-and-exceptional-durability-my-car-looks-brand-new-stays-protected-and-the-results-are-simply-mind-blowing-a-must-have-for-any-car-lover-highly-recommended-FTF {
+  margin-bottom: 0.8rem;
+  max-width: 115.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  letter-spacing: 0.014rem;
+  color: rgba(0, 0, 0, 0.6000000238);
+  font-family: Inter, 'Source Sans Pro';
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-3-4Qh {
+  margin-bottom: 0.8rem;
+  width: 100%;
+  height: 2.8rem;
+  display: flex;
+  align-items: center;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-3-4Qh .frame-3-bvR {
+  margin-right: 92.6rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-3-4Qh .frame-3-bvR .auto-group-yfpd-m4D {
+  box-sizing: border-box;
+  padding: 0.4rem 0.8rem 0.4rem 0rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-3-4Qh .frame-3-bvR .auto-group-yfpd-m4D .write-a-review-ted {
+  margin-right: 1.6rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  letter-spacing: 0.014rem;
+  color: rgba(0, 0, 0, 0.3799999952);
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-3-4Qh .frame-3-bvR .auto-group-yfpd-m4D .write-a-review-CfK {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  letter-spacing: 0.014rem;
+  color: rgba(0, 0, 0, 0.3799999952);
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-3-4Qh .frame-3-bvR .divider-vertical-XSh {
+  margin-right: 0.8rem;
+  width: 0.1rem;
+  height: 100%;
+  border: solid 0.1rem rgba(0, 0, 0, 0.1199999973);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-3-4Qh .frame-3-bvR .write-a-review-rjs {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  letter-spacing: 0.014rem;
+  color: rgba(0, 0, 0, 0.3799999952);
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-3-4Qh .nov-12-2023-PUu {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  letter-spacing: 0.014rem;
+  color: rgba(0, 0, 0, 0.3799999952);
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-69-vDw {
+  margin: 0rem 0rem 0.4rem 105.4rem;
+  box-sizing: border-box;
+  padding-left: 0.2137rem;
+  width: calc(100% - 105.4rem);
+  display: flex;
+  align-items: center;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-69-vDw .checkfilled-STB {
+  margin: 0rem 0.414rem 0rem 0rem;
+  width: 1.1727rem;
+  height: 0.894rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .frame-69-vDw .recommended-mVT {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  letter-spacing: 0.014rem;
+  color: #4caf50;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .auto-group-v2y9-6nd {
+  box-sizing: border-box;
+  padding: 1.7rem 0rem 1.5rem 0rem;
+  width: 30.3rem;
+  height: 7.2rem;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .auto-group-v2y9-6nd .frame-923-EP3 {
+  width: 21.8rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .auto-group-v2y9-6nd .frame-923-EP3 .rectangle-17-BJH {
+  margin-right: 1.8rem;
+  width: 2rem;
+  height: 4rem;
+  background-color: #db4444;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-3-L9w .auto-group-v2y9-6nd .frame-923-EP3 .write-your-own-review-WLZ {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #db4444;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .button-qtd {
+  width: 13.8rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 18.1rem;
+  top: 175.7rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #f9f9f9;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #db4444;
+  border-radius: 0.4rem;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB {
+  width: 117rem;
+  height: 35.1rem;
+  position: absolute;
+  left: 15.5rem;
+  top: 203.6rem;
+  display: flex;
+  column-gap: 3rem;
+  align-items: center;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB {
+  width: 27rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-570-oU5 {
+  margin-bottom: 1.6rem;
+  box-sizing: border-box;
+  padding: 1.2rem 1.2rem 1.2rem 4.9rem;
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  background-color: #f5f5f5;
+  border-radius: 0.4rem;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-570-oU5 .frame-611-uX7 {
+  margin: 3.7rem 0.3rem 3.7rem 0rem;
+  height: calc(100% - 7.4rem);
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-570-oU5 .frame-611-uX7 .g92-2-500x500-1-qQm {
+  width: 17.2rem;
+  height: 15.2rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-570-oU5 .frame-575-yG5 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-570-oU5 .frame-575-yG5 .fill-heart-Kqj {
+  margin-bottom: 0.8rem;
+  width: 3.4rem;
+  height: 3.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-570-oU5 .frame-575-yG5 .fill-eye-s6Z {
+  width: 3.4rem;
+  height: 3.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-569-NJD {
+  width: 21.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-569-NJD .gc-leather-vinyl-cleaner-KDT {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-569-NJD .auto-group-xsud-T4m {
+  box-sizing: border-box;
+  padding-top: 0.8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-569-NJD .auto-group-xsud-T4m .mad-zqP {
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #db4444;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-569-NJD .auto-group-xsud-T4m .frame-566-jY5 {
+  margin-right: 7.7rem;
+  width: calc(100% - 7.7rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-569-NJD .auto-group-xsud-T4m .frame-566-jY5 .five-star-5rq {
+  margin: 0rem 0.8rem 0.1rem 0rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-569-NJD .auto-group-xsud-T4m .frame-566-jY5 .five-star-5rq .vector-CgZ {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-569-NJD .auto-group-xsud-T4m .frame-566-jY5 .five-star-5rq .vector-Lnm {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-569-NJD .auto-group-xsud-T4m .frame-566-jY5 .five-star-5rq .vector-Hi1 {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-569-NJD .auto-group-xsud-T4m .frame-566-jY5 .five-star-5rq .vector-3SH {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-569-NJD .auto-group-xsud-T4m .frame-566-jY5 .five-star-5rq .vector-Pm3 {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ebB .frame-569-NJD .auto-group-xsud-T4m .frame-566-jY5 .item-88-LwB {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq {
+  width: 27rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-570-q7F {
+  margin-bottom: 1.6rem;
+  box-sizing: border-box;
+  padding-top: 1.2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  border-radius: 0.4rem;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-570-q7F .auto-group-qrjt-mmb {
+  margin: 0rem 1.2rem 1.4rem 0rem;
+  width: 21.8rem;
+  height: 18.3rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-570-q7F .auto-group-qrjt-mmb .frame-575-74m {
+  width: 3.4rem;
+  height: 7.6rem;
+  position: absolute;
+  left: 18.4rem;
+  top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-570-q7F .auto-group-qrjt-mmb .frame-575-74m .fill-heart-r2M {
+  margin-bottom: 0.8rem;
+  width: 3.4rem;
+  height: 3.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-570-q7F .auto-group-qrjt-mmb .frame-575-74m .fill-eye-z8Z {
+  width: 3.4rem;
+  height: 3.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-570-q7F .auto-group-qrjt-mmb .frame-612-LTK {
+  width: 19rem;
+  height: 18rem;
+  position: absolute;
+  left: 0;
+  top: 0.3rem;
+  overflow: hidden;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-570-q7F .auto-group-qrjt-mmb .image-65-UpR {
+  width: 17.5rem;
+  height: 16.3rem;
+  position: absolute;
+  left: 0.9rem;
+  top: 1.3rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-570-q7F .auto-group-s2gz-1JZ {
+  width: 100%;
+  height: 4.1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  border-radius: 0 0 0.4rem 0.4rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-569-ftu {
+  width: 13.9rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-569-ftu .auto-group-rtpz-EBK {
+  box-sizing: border-box;
+  padding-bottom: 0.8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-569-ftu .auto-group-rtpz-EBK .hyper-wash-B6Z {
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-569-ftu .auto-group-rtpz-EBK .mad-hah {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #db4444;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-569-ftu .frame-566-RFo {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-569-ftu .frame-566-RFo .four-star-Mv9 {
+  margin: 0rem 0.8rem 0.1rem 0rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-569-ftu .frame-566-RFo .four-star-Mv9 .vector-GXK {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-569-ftu .frame-566-RFo .four-star-Mv9 .vector-1zh {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-569-ftu .frame-566-RFo .four-star-Mv9 .vector-N4Z {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-569-ftu .frame-566-RFo .four-star-Mv9 .vector-uqB {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-569-ftu .frame-566-RFo .four-star-Mv9 .vector-TLu {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--Gpq .frame-569-ftu .frame-566-RFo .item-75-D5B {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud {
+  width: 27rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-570-hFF {
+  margin-bottom: 1.6rem;
+  width: 100%;
+  height: 25rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  border-radius: 0.4rem;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-570-hFF .frame-575-deh {
+  width: 3.4rem;
+  height: 7.6rem;
+  position: absolute;
+  left: 22.4rem;
+  top: 1.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-570-hFF .frame-575-deh .fill-heart-N6V {
+  margin-bottom: 0.8rem;
+  width: 3.4rem;
+  height: 3.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-570-hFF .frame-575-deh .fill-eye-WTb {
+  width: 3.4rem;
+  height: 3.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-570-hFF .frame-613-rnM {
+  box-sizing: border-box;
+  padding: 0rem 0.95rem 0rem 1.05rem;
+  width: 19rem;
+  height: 18rem;
+  position: absolute;
+  left: 4rem;
+  top: 3.5rem;
+  overflow: hidden;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-570-hFF .frame-613-rnM .image-66-nAD {
+  width: 17rem;
+  height: 21rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-570-hFF .discount-percent-X7o {
+  width: 5.2rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 1.2rem;
+  top: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #f9f9f9;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #db4444;
+  border-radius: 0.4rem;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-569-yVb {
+  width: 26.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-569-yVb .all-purpose-cleaner-nettoyant-vvd {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-569-yVb .auto-group-9a9o-fNR {
+  box-sizing: border-box;
+  padding-top: 0.8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-569-yVb .auto-group-9a9o-fNR .frame-567-Qau {
+  margin: 0rem 10rem 0.8rem 0rem;
+  width: calc(100% - 10rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-569-yVb .auto-group-9a9o-fNR .frame-567-Qau .mad-9YV {
+  margin-right: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #db4444;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-569-yVb .auto-group-9a9o-fNR .frame-567-Qau .mad-goK {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration-line: line-through;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-569-yVb .auto-group-9a9o-fNR .frame-566-qAR {
+  margin-right: 12.8rem;
+  width: calc(100% - 12.8rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-569-yVb .auto-group-9a9o-fNR .frame-566-qAR .five-star-BEH {
+  margin: 0rem 0.8rem 0.1rem 0rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-569-yVb .auto-group-9a9o-fNR .frame-566-qAR .five-star-BEH .vector-ug5 {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-569-yVb .auto-group-9a9o-fNR .frame-566-qAR .five-star-BEH .vector-rbK {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-569-yVb .auto-group-9a9o-fNR .frame-566-qAR .five-star-BEH .vector-QMw {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-569-yVb .auto-group-9a9o-fNR .frame-566-qAR .five-star-BEH .vector-x8Z {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-569-yVb .auto-group-9a9o-fNR .frame-566-qAR .five-star-BEH .vector-hbw {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--9Ud .frame-569-yVb .auto-group-9a9o-fNR .frame-566-qAR .item-99-rDw {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM {
+  width: 27rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-570-jYd {
+  margin-bottom: 1.6rem;
+  width: 100%;
+  height: 25rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  border-radius: 0.4rem;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-570-jYd .frame-575-V21 {
+  width: 3.4rem;
+  height: 7.6rem;
+  position: absolute;
+  left: 22.4rem;
+  top: 1.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-570-jYd .frame-575-V21 .fill-heart-pa5 {
+  margin-bottom: 0.8rem;
+  width: 3.4rem;
+  height: 3.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-570-jYd .frame-575-V21 .fill-eye-xgH {
+  width: 3.4rem;
+  height: 3.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-570-jYd .image-67-WSu {
+  width: 28.4rem;
+  height: 25rem;
+  position: absolute;
+  left: -1.35rem;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-569-2RF {
+  width: 14rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-569-2RF .auto-group-mwtp-BZ3 {
+  box-sizing: border-box;
+  padding-bottom: 0.8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-569-2RF .auto-group-mwtp-BZ3 .engine-clean-8jB {
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-569-2RF .auto-group-mwtp-BZ3 .mad-sRs {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #db4444;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-569-2RF .frame-566-pM7 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-569-2RF .frame-566-pM7 .four-half-star-yjo {
+  margin: 0rem 0.8rem 0.1rem 0rem;
+  box-sizing: border-box;
+  padding-right: 0.1667rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-569-2RF .frame-566-pM7 .four-half-star-yjo .vector-6pR {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-569-2RF .frame-566-pM7 .four-half-star-yjo .vector-eqw {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-569-2RF .frame-566-pM7 .four-half-star-yjo .vector-CsT {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-569-2RF .frame-566-pM7 .four-half-star-yjo .vector-MkM {
+  margin-right: 0.1667rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.14rem;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-569-2RF .frame-566-pM7 .four-half-star-yjo .star-half-filled-V5s {
+  margin-top: 0.0166rem;
+  width: 1.6667rem;
+  height: 1.65rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .frame-577-vfB .cart-with-flat-discount--ypM .frame-569-2RF .frame-566-pM7 .item-99-pP3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .score-jku {
+  width: 18.4rem;
+  height: 5.2rem;
+  position: absolute;
+  left: 18.1rem;
+  top: 135.3rem;
+}
+.product-details-X4u .product-details-page-G2V .score-jku .score--UTb {
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  letter-spacing: 0.04rem;
+  color: rgba(0, 0, 0, 0.6000000238);
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.product-details-X4u .product-details-page-G2V .score-jku .star-group-oVs {
+  width: 100%;
+  display: flex;
+  column-gap: 1.6rem;
+  align-items: center;
+}
+.product-details-X4u .product-details-page-G2V .score-jku .star-group-oVs .star-YiM {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .score-jku .star-group-oVs .star-JBj {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .score-jku .star-group-oVs .star-T4d {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .score-jku .star-group-oVs .star-Pys {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .score-jku .star-group-oVs .star-x1P {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.product-details-X4u .product-details-page-G2V .title-J5F {
+  width: 35.8rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 18.1rem;
+  top: 142.1rem;
+  background-color: #ffffff;
+}
+.product-details-X4u .product-details-page-G2V .title-J5F .input-SSM {
+  box-sizing: border-box;
+  padding: 1.6rem 1.2rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.015rem;
+  color: rgba(0, 0, 0, 0.6000000238);
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem rgba(0, 0, 0, 0.2300000042);
+}
+.product-details-X4u .product-details-page-G2V .review-Wh7 {
+  width: 35.8rem;
+  height: 22.4rem;
+  position: absolute;
+  left: 18.1rem;
+  top: 149.3rem;
+  background-color: #ffffff;
+}
+.product-details-X4u .product-details-page-G2V .review-Wh7 .input-Feh {
+  box-sizing: border-box;
+  padding: 1.6rem 1.2rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.015rem;
+  color: rgba(0, 0, 0, 0.6000000238);
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem rgba(0, 0, 0, 0.2300000042);
+}
