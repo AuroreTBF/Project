@@ -13,11 +13,11 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C700" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A300%2C400%2C500%2C600%2C700" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C500%2C600%2C700" />
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
   <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
   <link rel="stylesheet" href="fontawesome/css/brands.css">
   <link rel="stylesheet" href="fontawesome/css/solid.css">
-  <link rel="stylesheet" href="./styles/car-repair-guide.css" />
+  <link rel="stylesheet" href="../styles/car-repair-guide.css" />
 </head>
 
 <body>
@@ -25,7 +25,7 @@
     <div class="auto-group-ff9t-2Rf">
       <p class="car-repair-at-your-door-step-7T7">Car repair at your door step</p>
       <div class="select-a-car-Qh7">Select a car</div>
-      <img class="asset-2-1-e5f" src="./assets/asset-2-1.png" />
+      <img class="asset-2-1-e5f" src="../assets/asset-2-1.png" />
     </div>
     <div class="auto-group-mmah-ZyK">
       <div class="component-1-4fB">Car Repairs</div>

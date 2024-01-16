@@ -229,13 +229,13 @@ foreach ($review as $rev){
   $x =$rev['rating'];
   $z ="";
   for ($i=0;$i<5;$i++){
-      if($x==0.5){
+      if($x>=0.4 && $x<1){
           $z=$z.'<i class="bx bxs-star-half"></i>';
       }
       else if($x>=1){
           $z=$z.'<i class="bx bxs-star"></i>';
       }
-      else if($x<=0){
+      else if($x<0.4){
           $z=$z.'<i class="bx bx-star" style="o"></i>';
       }
       $x-=1;
@@ -270,6 +270,10 @@ echo'</div>';
 </div>
 <?php
 if (!empty($_POST['rating']) && $_POST['rating'] >= 0 && $_POST['rating'] <= 5) {
+  $ordercheck = $con->prepare("SELECT * FROM orders o JOIN transactions t JOIN shopping_cart s ON t.shop_id = s.Shopping_cart_id AND t.transaction_id = o.transaction_id WHERE s.user_id = ".$_SESSION['id']." AND o.product_id =".$_GET['product_id']);
+  $ordercheck->execute();
+  $check = $ordercheck->fetchAll();
+  if ($check!=null){
   if (isset($_POST['review']) && !empty($_POST['title']) && !empty($_POST['description'])) {
       $req = $con->prepare('INSERT INTO `ratings` (`id`, `product_id`, `user_id`, `rating`, `title`, `description`, `date_created`) VALUES (NULL, :product_id, :user_id, :rating, :title, :description, current_timestamp())');
       $req->bindValue(":product_id", $_GET['product_id']);
@@ -279,6 +283,8 @@ if (!empty($_POST['rating']) && $_POST['rating'] >= 0 && $_POST['rating'] <= 5) 
       $req->bindValue(":title", $_POST['title']);
       $req->execute();
       header("Refresh:0");
+  }}else{
+    echo "<div class='text-danger' style='margin-left:300px'><strong>item not bought, please buy item to review.</strong></div>";
   }
 }
 ?>

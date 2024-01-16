@@ -61,6 +61,7 @@ $con = cnx_pdo();
                         <li><a href="cart.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary selected">Cart</a></li>
                         <li><a href="wishlist.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Manage Wishlist</a></li>
                         <li><a href="orders.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Ordered Items</a></li>
+                        <li><a href="enlisted.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">My Enlisted items</a></li>
                         <li><a href="delete.php" onclick="return confirm('YOU CANNOT UNDO THIS ACTION, ARE YOU SURE YOU WANT TO PROCEED WITH ACCOUNT DELETION?')" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Delete Account</a></li>
                     </ul>
                 </nav>

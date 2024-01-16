@@ -24,22 +24,20 @@ if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER
 require "../cnx.php";
 $con = cnx_pdo();
 // Default query to fetch all products
-$req = $con->prepare("SELECT * FROM products");
+$req = $con->prepare("SELECT * FROM products WHERE user_id !=".$_SESSION['id']);
 if (isset($_POST['filter']) && !empty($_POST['search'])) {
     $category = $_POST['filter'];
     $search = "%" . $_POST['search'] . "%";
-    $req = $con->prepare("SELECT * FROM products WHERE category_id = :cat AND name LIKE :search");
+    $req = $con->prepare("SELECT * FROM products WHERE category_id = :cat AND name LIKE :search AND user_id !=".$_SESSION['id']);
     $req->bindValue(':cat', $category);
     $req->bindValue(':search', $search);
-    echo "haha";
 } else if (!empty($_POST['search'])) {
     $search = "%" . $_POST['search'] . "%";
-    $req = $con->prepare("SELECT * FROM products WHERE name LIKE :search");
+    $req = $con->prepare("SELECT * FROM products WHERE name LIKE :search AND user_id !=".$_SESSION['id']);
     $req->bindValue(':search', $search);
-    echo "hehe";
 } else if (isset($_POST['filter'])) {
     $category = $_POST['filter'];
-    $req = $con->prepare("SELECT * FROM products WHERE category_id = :cat");
+    $req = $con->prepare("SELECT * FROM products WHERE category_id = :cat AND user_id !=".$_SESSION['id']);
     $req->bindValue(':cat', $category);
 }
 if (isset($_POST['reset'])){

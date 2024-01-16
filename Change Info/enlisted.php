@@ -8,7 +8,7 @@ if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orders</title>
+    <title>Log in</title>
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <script src="../js/bootstrap.bundle.js"></script>
@@ -18,6 +18,25 @@ if(isset($_SESSION['open']) && $_SESSION['open'] && $_SESSION['nav'] == $_SERVER
 <?php
 require "../cnx.php";
 $con = cnx_pdo();
+$reqUser = $con->prepare("SELECT * FROM users WHERE email =:email");
+        $reqUser->bindValue(':email',$_SESSION['email']);
+        $reqUser->execute();
+        $user = $reqUser->fetch();
+if ($_SERVER['REQUEST_METHOD'] == 'POST'){        
+        $updateaddress = $_POST['address'];
+        $updatename = $_POST['name'];
+        $updatelastname = $_POST['lastname'];
+        $oldpass = sha1($_POST['oldpass']);
+        $updatepass = sha1($_POST['newpass']);
+if($oldpass === $user['password']){
+        $req_prep = $con->prepare("UPDATE users  SET firstname= :fname , password= :pass , address =:addr, lastname =:lname WHERE email =:email");
+        $req_prep->bindValue(':email', $_SESSION['email']);
+        $req_prep->bindValue(':fname', $updatename);
+        $req_prep->bindValue(':lname', $updatelastname);
+        $req_prep->bindValue(':addr', $updateaddress);
+        $req_prep->bindValue(':pass', $updatepass);
+        $req_prep->execute();
+}}
 ?>
 <!--Header -->
 <div class="container">
@@ -54,21 +73,21 @@ $con = cnx_pdo();
     <div class="container">
         <div class="row">
             <!-- Navigation on the left -->
-            <div class="col-md-2" style="margin-top: 100px;"> <!-- Adjust margin-top as needed -->
+            <div class="col-md-3" style="margin-top: 100px;"> <!-- Adjust margin-top as needed -->
                 <nav>
-                <ul class="nav1 justify-content-center mb-md-0">
+                    <ul class="nav1 justify-content-center mb-md-0">
                         <li><a href="index.php" class="nav-link px-4 link-light font-weight-bold border rounded border-secondary li">Account Settings</a></li>
                         <li><a href="cart.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Cart</a></li>
-                        <li><a href="wishlist.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Manage Wishlist</a></li>
-                        <li><a href="orders.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary selected">Ordered Items</a></li>
-                        <li><a href="enlisted.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">My Enlisted items</a></li>
+                        <li><a href="wishlist.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Manage wishlist</a></li>
+                        <li><a href="orders.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Ordered Items</a></li>
+                        <li><a href="enlisted.php" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary selected">My Enlisted items</a></li>
                         <li><a href="delete.php" onclick="return confirm('YOU CANNOT UNDO THIS ACTION, ARE YOU SURE YOU WANT TO PROCEED WITH ACCOUNT DELETION?')" class="nav-link px-2 link-light font-weight-bold border rounded border-secondary li">Delete Account</a></li>
                     </ul>
                 </nav>
             </div>
             <!-- Form on the right -->
             
-            <div class="col-md-10 mt-5">
+            <div class="col-md-9 mt-5">
                     <div class="shopping-cart mt-5">
                         <div class="cart-header d-none d-sm-none d-mb-block d-lg-block"style="background-color: rgba(0, 0, 0, 0.3);">
                             <div class="row text-light">
@@ -78,19 +97,18 @@ $con = cnx_pdo();
                                 <div class="col-md-2">
                                     <h4>Price</h4>
                                 </div>
-                                <div class="col-md-2">
-                                    <h4>Date Added</h4>
+                                <div class="col-md-2 text-end">
+                                    <h4>Remove</h4>
                                 </div>
                             </div>
                         </div>
-<div class="container">
 <?php
 $con = cnx_pdo();
-$order = $con->prepare("SELECT p.* FROM products p JOIN orders o JOIN transactions t JOIN shopping_cart s ON s.Shopping_cart_id = t.shop_id AND t.transaction_id = o.transaction_id AND o.product_id = p.product_id WHERE s.user_id = :user_id");
-$order->bindValue(":user_id",$_SESSION['id']);
-$order->execute();
-$ordereditems = $order->fetchAll();
-foreach($ordereditems as $product){
+$enlist = $con->prepare("SELECT * FROM products WHERE user_id = :user_id;");
+$enlist->bindValue(":user_id",$_SESSION['id']);
+$enlist->execute();
+$en = $enlist ->fetchAll();
+foreach($en as $product){
 echo '<div class="cart-item border m-1" style=" background-color: rgba(0, 0, 0, 0.3);">';
 echo '<div class="row text-light">';
 echo '<div class="col-md-6 my-auto ">';
@@ -104,11 +122,13 @@ echo ' </div>';
 echo ' <div class="col-md-2 my-auto">';
 echo '<label class="price"><strong>'.$product['price'].' DH</strong></label>';
 echo ' </div>';
-echo ' <div class="col my-auto">';
-echo '<label class="price"><strong>'.$product['date_created'].'</strong></label>';
-echo' </div> </div> </div>';
+echo '<div class="col-md-2 col-5 my-auto text-end">';
+echo '<div class="remove">';
+echo '<a href="../ProductDetails/removeitem.php?product_id='.$product['product_id'].'" class="btn btn-danger btn-sm">';
+echo '<i class="fa fa-trash"></i> Remove';
+echo '</a>';
+echo' </div> </div> </div> </div>';
 }?>
-                    </div></div>
   </body>
 </html>
 <?php
